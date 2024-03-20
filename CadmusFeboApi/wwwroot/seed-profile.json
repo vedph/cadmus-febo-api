@@ -496,59 +496,79 @@
       "entries": [
         {
           "id": "it.vedph.bibliography",
-          "value": "bibliografia"
+          "value": "bibliography"
         },
         {
           "id": "it.vedph.categories",
-          "value": "categorie"
+          "value": "categories"
         },
         {
           "id": "it.vedph.comment",
-          "value": "commento"
+          "value": "comment"
         },
         {
           "id": "it.vedph.doc-references",
-          "value": "riferimenti"
+          "value": "references"
+        },
+        {
+          "id": "it.vedph.epigraphy.support",
+          "value": "support"
+        },
+        {
+          "id": "it.vedph.epigraphy.writing",
+          "value": "writing"
         },
         {
           "id": "it.vedph.external-ids",
-          "value": "ID esterni"
+          "value": "external IDs"
+        },
+        {
+          "id": "it.vedph.geo.asserted-locations",
+          "value": "locations"
+        },
+        {
+          "id": "it.vedph.geo.asserted-toponyms",
+          "value": "toponyms"
         },
         {
           "id": "it.vedph.historical-date",
-          "value": "datazione"
+          "value": "datation"
         },
         {
           "id": "it.vedph.index-keywords",
-          "value": "parole chiave"
+          "value": "keywords"
         },
         {
           "id": "it.vedph.metadata",
-          "value": "metadati"
+          "value": "metadata"
         },
         {
           "id": "it.vedph.note",
-          "value": "nota"
+          "value": "note"
         },
         {
           "id": "it.vedph.token-text",
-          "value": "testo"
+          "value": "text"
         },
         {
           "id": "it.vedph.token-text-layer",
-          "value": "strato"
+          "value": "layer"
+        },
+        {
+          "id": "fr.it.vedph.apparatus",
+          "value": "fr.apparatus"
         },
         {
           "id": "fr.it.vedph.chronology",
-          "value": "fr.cronologia"
+          "value": "fr.chronology"
         },
         {
           "id": "fr.it.vedph.comment",
-          "value": "fr.commento"
+          "value": "fr.comment"
         },
         {
-          "id": "fr.it.vedph.epigraphy.ligatures",
-          "value": "fr.legature"
+          "id": "fr.it.vedph.orthography",
+          "value": "fr.orthography"
         }
       ]
     },
@@ -1760,7 +1780,7 @@
   "seed": {
     "options": {
       "seed": 1,
-      "users": [ "zeus" ],
+      "users": ["zeus"],
       "partRoles": [],
       "fragmentRoles": []
     },
@@ -1775,7 +1795,7 @@
             "Sampson,James",
             "Voss,Francis"
           ],
-          "journals": [ "AJPh", "CJ", "CPh", "CQ", "IF" ]
+          "journals": ["AJPh", "CJ", "CPh", "CQ", "IF"]
         }
       },
       {
@@ -1794,8 +1814,8 @@
       {
         "id": "seed.it.vedph.comment",
         "options": {
-          "languages": [ "eng", "ita" ],
-          "categories": [ "language.phonology", "language.syntax", "history" ]
+          "languages": ["eng", "ita"],
+          "categories": ["language.phonology", "language.syntax", "history"]
         }
       },
       {
@@ -1831,8 +1851,8 @@
       {
         "id": "seed.it.vedph.index-keywords",
         "options": {
-          "indexIds": [ "persons", "places" ],
-          "languages": [ "eng", "deu", "ita", "fra", "spa" ]
+          "indexIds": ["persons", "places"],
+          "languages": ["eng", "deu", "ita", "fra", "spa"]
         }
       },
       {
@@ -1858,8 +1878,8 @@
       {
         "id": "seed.fr.it.vedph.comment",
         "options": {
-          "languages": [ "eng", "ita" ],
-          "categories": [ "sport", "infamous" ]
+          "languages": ["eng", "ita"],
+          "categories": ["sport", "infamous"]
         }
       },
       {
