@@ -1,0 +1,6 @@
+@CadmusFeboApi_HostAddress = http://localhost:5105
+
+GET {{CadmusFeboApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
