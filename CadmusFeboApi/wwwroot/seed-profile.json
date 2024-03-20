@@ -163,7 +163,7 @@
           "name": "bibliography",
           "description": "Bibliography about inscription.",
           "colorKey": "4C5EA9",
-          "groupKey": "comment",
+          "groupKey": "references",
           "sortKey": "s"
         },
         {
@@ -171,7 +171,7 @@
           "name": "references",
           "description": "Short documental references.",
           "colorKey": "AAAA9D",
-          "groupKey": "comment",
+          "groupKey": "references",
           "sortKey": "t"
         }
       ]
@@ -273,7 +273,7 @@
           "name": "bibliography",
           "description": "Bibliography about passage.",
           "colorKey": "4C5EA9",
-          "groupKey": "comment",
+          "groupKey": "references",
           "sortKey": "k"
         },
         {
@@ -281,7 +281,7 @@
           "name": "references",
           "description": "Short documental references.",
           "colorKey": "AAAA9D",
-          "groupKey": "comment",
+          "groupKey": "references",
           "sortKey": "l"
         }
       ]
@@ -301,13 +301,21 @@
           "sortKey": "a"
         },
         {
+          "typeId": "it.vedph.external-ids",
+          "name": "external IDs",
+          "description": "External identifiers.",
+          "colorKey": "BEE0CA",
+          "groupKey": "general",
+          "sortKey": "b"
+        },
+        {
           "typeId": "it.vedph.categories",
           "name": "topics",
           "roleId": "topic",
           "description": "Conflict topics.",
           "colorKey": "8080E0",
           "groupKey": "general",
-          "sortKey": "b"
+          "sortKey": "c"
         },
         {
           "typeId": "it.vedph.index-keywords",
@@ -315,7 +323,7 @@
           "description": "Keywords.",
           "colorKey": "FFA500",
           "groupKey": "general",
-          "sortKey": "c"
+          "sortKey": "d"
         },
         {
           "typeId": "it.vedph.note",
@@ -323,32 +331,31 @@
           "description": "Free text note.",
           "colorKey": "FFB17A",
           "groupKey": "general",
-          "sortKey": "d"
+          "sortKey": "e"
         },
         {
           "typeId": "it.vedph.comment",
           "name": "comment",
           "description": "General comment.",
           "colorKey": "28666E",
-          "groupKey": "history",
-          "sortKey": "e"
+          "groupKey": "comment",
+          "sortKey": "f"
         },
         {
           "typeId": "it.vedph.historical-events",
           "name": "events",
           "description": "Historical events.",
           "colorKey": "C898C8",
-          "groupKey": "history",
-          "sortKey": "f"
+          "groupKey": "comment",
+          "sortKey": "g"
         },
-
         {
           "typeId": "it.vedph.bibliography",
           "name": "bibliography",
           "description": "Bibliography about passage.",
           "colorKey": "4C5EA9",
           "groupKey": "references",
-          "sortKey": "g"
+          "sortKey": "h"
         },
         {
           "typeId": "it.vedph.doc-references",
@@ -356,7 +363,96 @@
           "description": "Short documental references.",
           "colorKey": "AAAA9D",
           "groupKey": "references",
+          "sortKey": "i"
+        }
+      ]
+    },
+    {
+      "id": "actor",
+      "label": "actor",
+      "description": "The conflict's actor facet.",
+      "colorKey": "226F54",
+      "partDefinitions": [
+        {
+          "typeId": "it.vedph.metadata",
+          "name": "metadata",
+          "description": "Generic metadata.",
+          "colorKey": "5D8CC0",
+          "groupKey": "general",
+          "sortKey": "a"
+        },
+        {
+          "typeId": "it.vedph.external-ids",
+          "name": "external IDs",
+          "description": "External identifiers.",
+          "colorKey": "BEE0CA",
+          "groupKey": "general",
+          "sortKey": "b"
+        },
+        {
+          "typeId": "it.vedph.names",
+          "name": "names",
+          "description": "Proper name(s).",
+          "colorKey": "C0F0F8",
+          "groupKey": "general",
+          "sortKey": "c"
+        },
+        {
+          "typeId": "it.vedph.categories",
+          "name": "roles",
+          "roleId": "actor",
+          "description": "Actor's roles.",
+          "colorKey": "8080E0",
+          "groupKey": "general",
+          "sortKey": "d"
+        },
+        {
+          "typeId": "it.vedph.index-keywords",
+          "name": "keywords",
+          "description": "Keywords.",
+          "colorKey": "FFA500",
+          "groupKey": "general",
+          "sortKey": "e"
+        },
+        {
+          "typeId": "it.vedph.note",
+          "name": "note",
+          "description": "Free text note.",
+          "colorKey": "FFB17A",
+          "groupKey": "general",
+          "sortKey": "f"
+        },
+        {
+          "typeId": "it.vedph.comment",
+          "name": "comment",
+          "description": "General comment.",
+          "colorKey": "28666E",
+          "groupKey": "comment",
+          "sortKey": "g"
+        },
+        {
+          "typeId": "it.vedph.historical-events",
+          "name": "events",
+          "description": "Historical events.",
+          "colorKey": "C898C8",
+          "groupKey": "comment",
           "sortKey": "h"
+        },
+        {
+          "typeId": "it.vedph.bibliography",
+          "name": "bibliography",
+          "description": "Bibliography about passage.",
+          "colorKey": "4C5EA9",
+          "groupKey": "references",
+          "sortKey": "i"
+        },
+        {
+          "typeId": "it.vedph.doc-references",
+          "name": "references",
+          "description": "Short documental references.",
+          "colorKey": "AAAA9D",
+          "groupKey": "references",
+          "sortKey": "j"
         }
       ]
     }
@@ -364,39 +460,21 @@
   "flags": [
     {
       "id": 1,
-      "label": "bozza",
-      "description": "Bozza importata.",
-      "colorKey": "FFD95C"
-    },
-    {
-      "id": 2,
       "label": "completo",
-      "description": "Scheda completa.",
+      "description": "Completed.",
       "colorKey": "49D6CD"
     },
     {
-      "id": 4,
-      "label": "revisionato",
-      "description": "Scheda revisionata.",
+      "id": 2,
+      "label": "revised",
+      "description": "Revised.",
       "colorKey": "49D697"
     },
     {
-      "id": 8,
-      "label": "riservato",
-      "description": "Accesso riservato",
+      "id": 4,
+      "label": "undisclosed",
+      "description": "Undisclosed access.",
       "colorKey": "EC8E74"
-    },
-    {
-      "id": 16,
-      "label": "pseudonimi",
-      "description": "Testo pseudonimizzato",
-      "colorKey": "E0A3FA"
-    },
-    {
-      "id": 32,
-      "label": "non interpr.",
-      "description": "Non interpretabile",
-      "colorKey": "E4C6B2"
     }
   ],
   "index": {
@@ -435,34 +513,6 @@
         {
           "id": "it.vedph.external-ids",
           "value": "ID esterni"
-        },
-        {
-          "id": "it.vedph.graffiti.figurative",
-          "value": "figurativo"
-        },
-        {
-          "id": "it.vedph.graffiti.frame",
-          "value": "cornice"
-        },
-        {
-          "id": "it.vedph.graffiti.localization",
-          "value": "localizzazione"
-        },
-        {
-          "id": "it.vedph.graffiti.states",
-          "value": "stati"
-        },
-        {
-          "id": "it.vedph.graffiti.support",
-          "value": "supporto"
-        },
-        {
-          "id": "it.vedph.graffiti.technique",
-          "value": "tecnica"
-        },
-        {
-          "id": "it.vedph.graffiti.writing",
-          "value": "scrittura"
         },
         {
           "id": "it.vedph.historical-date",
