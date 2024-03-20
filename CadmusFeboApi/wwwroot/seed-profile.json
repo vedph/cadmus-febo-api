@@ -72,91 +72,217 @@
           "groupKey": "general",
           "sortKey": "h"
         },
-
         {
-          "typeId": "it.vedph.historical-date",
-          "name": "datazione",
-          "description": "Datazione.",
-          "colorKey": "9F84BD",
-          "groupKey": "dettagli",
-          "sortKey": "k"
+          "typeId": "it.vedph.geo.asserted-locations",
+          "name": "locations",
+          "description": "Locations.",
+          "colorKey": "FFB17A",
+          "groupKey": "localization",
+          "sortKey": "i"
         },
         {
-          "typeId": "it.vedph.categories",
-          "name": "temi",
-          "roleId": "topic",
-          "description": "Temi del graffito.",
+          "typeId": "it.vedph.geo.asserted-toponyms",
+          "name": "toponyms",
+          "description": "Toponyms.",
           "colorKey": "8275BD",
-          "groupKey": "dettagli",
-          "sortKey": "l"
+          "groupKey": "localization",
+          "sortKey": "j"
+        },
+        {
+          "typeId": "it.vedph.historical-date",
+          "name": "datation",
+          "description": "Historical datation.",
+          "colorKey": "9F84BD",
+          "groupKey": "localization",
+          "sortKey": "k"
         },
         {
           "typeId": "it.vedph.token-text",
           "roleId": "base-text",
-          "name": "testo edito",
-          "description": "Testo edito del graffito.",
+          "name": "text",
+          "description": "Inscription's text.",
           "colorKey": "2EBFA5",
-          "groupKey": "testo",
+          "groupKey": "text",
+          "sortKey": "l"
+        },
+        {
+          "typeId": "it.vedph.note",
+          "roleId": "trans",
+          "name": "translation",
+          "description": "Inscription's translation.",
+          "colorKey": "8D93A5",
+          "groupKey": "text",
           "sortKey": "m"
         },
         {
           "typeId": "it.vedph.token-text-layer",
-          "roleId": "fr.it.vedph.comment",
-          "name": "commenti",
-          "description": "Commenti a parti del testo.",
-          "colorKey": "28666E",
-          "groupKey": "testo",
+          "roleId": "fr.it.vedph.apparatus",
+          "name": "apparatus",
+          "description": "Critical apparatus.",
+          "colorKey": "D4E0A4",
+          "groupKey": "text",
           "sortKey": "n"
         },
         {
           "typeId": "it.vedph.token-text-layer",
-          "roleId": "fr.it.vedph.chronology",
-          "name": "cronologia",
-          "description": "Indicazioni cronologiche nel testo.",
-          "colorKey": "7582BD",
-          "groupKey": "testo",
+          "roleId": "fr.it.vedph.comment",
+          "name": "comments",
+          "description": "Comments to text portions.",
+          "colorKey": "28666E",
+          "groupKey": "text",
           "sortKey": "o"
         },
         {
           "typeId": "it.vedph.token-text-layer",
-          "roleId": "fr.it.vedph.epigraphy.ligatures",
-          "name": "legature",
-          "description": "Legature notevoli nel testo.",
-          "colorKey": "DEBEF3",
-          "groupKey": "testo",
+          "roleId": "fr.it.vedph.chronology",
+          "name": "chronology",
+          "description": "Chronological indications in text.",
+          "colorKey": "7582BD",
+          "groupKey": "text",
           "sortKey": "p"
         },
         {
-          "typeId": "it.vedph.comment",
-          "name": "commento",
-          "description": "Commento al graffito.",
-          "colorKey": "28666E",
-          "groupKey": "commento",
+          "typeId": "it.vedph.token-text-layer",
+          "roleId": "fr.it.vedph.orthography",
+          "name": "orthography",
+          "description": "Standard orthography.",
+          "colorKey": "E0D4A4",
+          "groupKey": "text",
           "sortKey": "q"
         },
         {
-          "typeId": "it.vedph.note",
-          "name": "nota",
-          "description": "Nota miscellanea.",
-          "colorKey": "8D93A5",
-          "groupKey": "commento",
+          "typeId": "it.vedph.comment",
+          "name": "comment",
+          "description": "General comment.",
+          "colorKey": "28666E",
+          "groupKey": "comment",
           "sortKey": "r"
         },
         {
           "typeId": "it.vedph.bibliography",
-          "name": "bibliografia",
-          "description": "Bibliografia sul graffito.",
+          "name": "bibliography",
+          "description": "Bibliography about inscription.",
           "colorKey": "4C5EA9",
-          "groupKey": "riferimenti",
-          "sortKey": "u"
+          "groupKey": "comment",
+          "sortKey": "s"
         },
         {
           "typeId": "it.vedph.doc-references",
-          "name": "riferimenti",
-          "description": "Riferimenti sintetici.",
+          "name": "references",
+          "description": "Short documental references.",
           "colorKey": "AAAA9D",
-          "groupKey": "riferimenti",
-          "sortKey": "v"
+          "groupKey": "comment",
+          "sortKey": "t"
+        }
+      ]
+    },
+    {
+      "id": "passage",
+      "label": "literary text",
+      "description": "The literary text facet.",
+      "colorKey": "20A4F3",
+      "partDefinitions": [
+        {
+          "typeId": "it.vedph.metadata",
+          "name": "metadata",
+          "description": "Generic metadata.",
+          "colorKey": "5D8CC0",
+          "groupKey": "general",
+          "sortKey": "a"
+        },
+        {
+          "typeId": "it.vedph.categories",
+          "name": "topics",
+          "roleId": "topic",
+          "description": "Text topics.",
+          "colorKey": "8080E0",
+          "groupKey": "general",
+          "sortKey": "b"
+        },
+        {
+          "typeId": "it.vedph.index-keywords",
+          "name": "keywords",
+          "description": "Keywords.",
+          "colorKey": "FFA500",
+          "groupKey": "general",
+          "sortKey": "e"
+        },
+        {
+          "typeId": "it.vedph.note",
+          "name": "note",
+          "description": "Free text note.",
+          "colorKey": "FFB17A",
+          "groupKey": "general",
+          "sortKey": "f"
+        },
+        {
+          "typeId": "it.vedph.token-text",
+          "roleId": "base-text",
+          "name": "text",
+          "description": "Passage's text.",
+          "colorKey": "2EBFA5",
+          "groupKey": "text",
+          "sortKey": "g"
+        },
+        {
+          "typeId": "it.vedph.note",
+          "roleId": "trans",
+          "name": "translation",
+          "description": "Passage's translation.",
+          "colorKey": "8D93A5",
+          "groupKey": "text",
+          "sortKey": "h"
+        },
+        {
+          "typeId": "it.vedph.token-text-layer",
+          "roleId": "fr.it.vedph.apparatus",
+          "name": "apparatus",
+          "description": "Critical apparatus.",
+          "colorKey": "D4E0A4",
+          "groupKey": "text",
+          "sortKey": "i"
+        },
+        {
+          "typeId": "it.vedph.token-text-layer",
+          "roleId": "fr.it.vedph.comment",
+          "name": "comments",
+          "description": "Comments to text portions.",
+          "colorKey": "28666E",
+          "groupKey": "text",
+          "sortKey": "j"
+        },
+        {
+          "typeId": "it.vedph.token-text-layer",
+          "roleId": "fr.it.vedph.chronology",
+          "name": "chronology",
+          "description": "Chronological indications in text.",
+          "colorKey": "7582BD",
+          "groupKey": "text",
+          "sortKey": "k"
+        },
+        {
+          "typeId": "it.vedph.comment",
+          "name": "comment",
+          "description": "General comment.",
+          "colorKey": "28666E",
+          "groupKey": "comment",
+          "sortKey": "l"
+        },
+        {
+          "typeId": "it.vedph.bibliography",
+          "name": "bibliography",
+          "description": "Bibliography about passage.",
+          "colorKey": "4C5EA9",
+          "groupKey": "comment",
+          "sortKey": "m"
+        },
+        {
+          "typeId": "it.vedph.doc-references",
+          "name": "references",
+          "description": "Short documental references.",
+          "colorKey": "AAAA9D",
+          "groupKey": "comment",
+          "sortKey": "n"
         }
       ]
     }
