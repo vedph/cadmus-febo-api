@@ -35,7 +35,7 @@
           "typeId": "it.vedph.categories",
           "name": "topics",
           "roleId": "topic",
-          "description": "Inscription topics.",
+          "description": "Conflict topics.",
           "colorKey": "8080E0",
           "groupKey": "general",
           "sortKey": "d"
@@ -194,7 +194,7 @@
           "typeId": "it.vedph.categories",
           "name": "topics",
           "roleId": "topic",
-          "description": "Text topics.",
+          "description": "Conflict topics.",
           "colorKey": "8080E0",
           "groupKey": "general",
           "sortKey": "b"
@@ -205,7 +205,7 @@
           "description": "Keywords.",
           "colorKey": "FFA500",
           "groupKey": "general",
-          "sortKey": "e"
+          "sortKey": "c"
         },
         {
           "typeId": "it.vedph.note",
@@ -213,7 +213,7 @@
           "description": "Free text note.",
           "colorKey": "FFB17A",
           "groupKey": "general",
-          "sortKey": "f"
+          "sortKey": "d"
         },
         {
           "typeId": "it.vedph.token-text",
@@ -222,7 +222,7 @@
           "description": "Passage's text.",
           "colorKey": "2EBFA5",
           "groupKey": "text",
-          "sortKey": "g"
+          "sortKey": "e"
         },
         {
           "typeId": "it.vedph.note",
@@ -231,7 +231,7 @@
           "description": "Passage's translation.",
           "colorKey": "8D93A5",
           "groupKey": "text",
-          "sortKey": "h"
+          "sortKey": "f"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -240,7 +240,7 @@
           "description": "Critical apparatus.",
           "colorKey": "D4E0A4",
           "groupKey": "text",
-          "sortKey": "i"
+          "sortKey": "g"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -249,7 +249,7 @@
           "description": "Comments to text portions.",
           "colorKey": "28666E",
           "groupKey": "text",
-          "sortKey": "j"
+          "sortKey": "h"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -258,7 +258,7 @@
           "description": "Chronological indications in text.",
           "colorKey": "7582BD",
           "groupKey": "text",
-          "sortKey": "k"
+          "sortKey": "i"
         },
         {
           "typeId": "it.vedph.comment",
@@ -266,7 +266,7 @@
           "description": "General comment.",
           "colorKey": "28666E",
           "groupKey": "comment",
-          "sortKey": "l"
+          "sortKey": "j"
         },
         {
           "typeId": "it.vedph.bibliography",
@@ -274,7 +274,7 @@
           "description": "Bibliography about passage.",
           "colorKey": "4C5EA9",
           "groupKey": "comment",
-          "sortKey": "m"
+          "sortKey": "k"
         },
         {
           "typeId": "it.vedph.doc-references",
@@ -282,7 +282,81 @@
           "description": "Short documental references.",
           "colorKey": "AAAA9D",
           "groupKey": "comment",
-          "sortKey": "n"
+          "sortKey": "l"
+        }
+      ]
+    },
+    {
+      "id": "conflict",
+      "label": "conflict",
+      "description": "The conflict facet.",
+      "colorKey": "D8314A",
+      "partDefinitions": [
+        {
+          "typeId": "it.vedph.metadata",
+          "name": "metadata",
+          "description": "Generic metadata.",
+          "colorKey": "5D8CC0",
+          "groupKey": "general",
+          "sortKey": "a"
+        },
+        {
+          "typeId": "it.vedph.categories",
+          "name": "topics",
+          "roleId": "topic",
+          "description": "Conflict topics.",
+          "colorKey": "8080E0",
+          "groupKey": "general",
+          "sortKey": "b"
+        },
+        {
+          "typeId": "it.vedph.index-keywords",
+          "name": "keywords",
+          "description": "Keywords.",
+          "colorKey": "FFA500",
+          "groupKey": "general",
+          "sortKey": "c"
+        },
+        {
+          "typeId": "it.vedph.note",
+          "name": "note",
+          "description": "Free text note.",
+          "colorKey": "FFB17A",
+          "groupKey": "general",
+          "sortKey": "d"
+        },
+        {
+          "typeId": "it.vedph.comment",
+          "name": "comment",
+          "description": "General comment.",
+          "colorKey": "28666E",
+          "groupKey": "history",
+          "sortKey": "e"
+        },
+        {
+          "typeId": "it.vedph.historical-events",
+          "name": "events",
+          "description": "Historical events.",
+          "colorKey": "C898C8",
+          "groupKey": "history",
+          "sortKey": "f"
+        },
+
+        {
+          "typeId": "it.vedph.bibliography",
+          "name": "bibliography",
+          "description": "Bibliography about passage.",
+          "colorKey": "4C5EA9",
+          "groupKey": "references",
+          "sortKey": "g"
+        },
+        {
+          "typeId": "it.vedph.doc-references",
+          "name": "references",
+          "description": "Short documental references.",
+          "colorKey": "AAAA9D",
+          "groupKey": "references",
+          "sortKey": "h"
         }
       ]
     }
