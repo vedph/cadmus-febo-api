@@ -1,0 +1,53 @@
+version: '3.7'
+
+services:
+  # MongoDB
+  cadmus-febo-mongo:
+    image: mongo
+    container_name: cadmus-febo-mongo
+    environment:
+      - MONGO_DATA_DIR=/data/db
+      - MONGO_LOG_DIR=/dev/null
+    command: mongod --logpath=/dev/null
+    ports:
+      - 27017:27017
+    networks:
+      - cadmus-febo-network
+
+  # PostgreSQL
+  cadmus-febo-pgsql:
+    image: postgres
+    container_name: cadmus-febo-pgsql
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=postgres
+    ports:
+      - 5432:5432
+    networks:
+      - cadmus-febo-network
+
+  # Cadmus febo API
+  cadmus-febo-api:
+    image: vedph2020/cadmus-febo-api:6.0.0
+    container_name: cadmus-febo-api
+    ports:
+      - 5105:8080
+    depends_on:
+      - cadmus-febo-mongo
+      - cadmus-febo-pgsql
+    environment:
+      - CONNECTIONSTRINGS__DEFAULT=mongodb://cadmus-febo-mongo:27017/{0}
+      - CONNECTIONSTRINGS__INDEX=Server=cadmus-febo-pgsql;port=5432;Database={0};User Id=postgres;Password=postgres;Include Error Detail=True
+      - SERILOG__CONNECTIONSTRING=mongodb://cadmus-febo-mongo:27017/{0}-log
+      - STOCKUSERS__0__PASSWORD=P4ss-W0rd!
+      - SEED__INDEXDELAY=25
+      - MESSAGING__APIROOTURL=http://cadmusapi.azurewebsites.net
+      - MESSAGING__APPROOTURL=http://cadmusapi.com/
+      - MESSAGING__SUPPORTEMAIL=support@cadmus.com
+    networks:
+      - cadmus-febo-network
+
+networks:
+  cadmus-febo-network:
+    driver: bridge

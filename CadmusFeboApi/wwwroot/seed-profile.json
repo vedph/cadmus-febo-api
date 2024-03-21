@@ -794,6 +794,275 @@
       "targetId": "categories_topic"
     },
     {
+      "id": "epi-support-materials@en",
+      "entries": [
+        {
+          "id": "limestone-66",
+          "value": "limestone"
+        },
+        {
+          "id": "volcanic-98",
+          "value": "volcanic"
+        },
+        {
+          "id": "marble-48",
+          "value": "marble"
+        },
+        {
+          "id": "stone-2",
+          "value": "stone"
+        },
+        {
+          "id": "sandstone-502",
+          "value": "sandstone"
+        },
+        {
+          "id": "tuff-30",
+          "value": "tuff"
+        },
+        {
+          "id": "ceramic-643",
+          "value": "ceramic"
+        },
+        {
+          "id": "lead-108",
+          "value": "lead"
+        },
+        {
+          "id": "breccia-73",
+          "value": "breccia"
+        },
+        {
+          "id": "basalt-16",
+          "value": "basalt"
+        },
+        {
+          "id": "plaster-126",
+          "value": "plaster"
+        },
+        {
+          "id": "clay-131",
+          "value": "clay"
+        },
+        {
+          "id": "copper-113",
+          "value": "copper"
+        },
+        {
+          "id": "conglomerate-74",
+          "value": "conglomerate"
+        },
+        {
+          "id": "porphyry-25",
+          "value": "porphyry"
+        },
+        {
+          "id": "ivory-120",
+          "value": "ivory"
+        },
+        {
+          "id": "bronze-109",
+          "value": "bronze"
+        },
+        {
+          "id": "unknown-138",
+          "value": "unknown"
+        },
+        {
+          "id": "-",
+          "value": "---"
+        }
+      ]
+    },
+    {
+      "id": "epi-support-object-types@en",
+      "entries": [
+        {
+          "id": "block-189",
+          "value": "block"
+        },
+        {
+          "id": "statue-base-57",
+          "value": "statue-base"
+        },
+        {
+          "id": "slab-260",
+          "value": "slab"
+        },
+        {
+          "id": "urn-78",
+          "value": "urn"
+        },
+        {
+          "id": "seat-226",
+          "value": "seat"
+        },
+        {
+          "id": "curse-tablet-266",
+          "value": "curse-tablet"
+        },
+        {
+          "id": "milestone-89",
+          "value": "milestone"
+        },
+        {
+          "id": "plaque-1483",
+          "value": "plaque"
+        },
+        {
+          "id": "aedicula-1201",
+          "value": "aedicula"
+        },
+        {
+          "id": "column-100",
+          "value": "column"
+        },
+        {
+          "id": "wall-416",
+          "value": "wall"
+        },
+        {
+          "id": "architrave-119",
+          "value": "architrave"
+        },
+        {
+          "id": "base-53",
+          "value": "base"
+        },
+        {
+          "id": "stele-250",
+          "value": "stele"
+        },
+        {
+          "id": "lekanis",
+          "value": "lekanis"
+        },
+        {
+          "id": "tablet-255",
+          "value": "tablet"
+        },
+        {
+          "id": "plinth-1910",
+          "value": "plinth"
+        },
+        {
+          "id": "column-capital-63",
+          "value": "column-capital"
+        },
+        {
+          "id": "mosaic-184",
+          "value": "mosaic"
+        },
+        {
+          "id": "tile-1402",
+          "value": "tile"
+        },
+        {
+          "id": "rock-face-210",
+          "value": "rock-face"
+        },
+        {
+          "id": "altar-or-base-30",
+          "value": "altar-or-base"
+        },
+        {
+          "id": "ash-chest-79",
+          "value": "ash-chest"
+        },
+        {
+          "id": "tabula-ansata-263",
+          "value": "tabula-ansata"
+        },
+        {
+          "id": "brick-1788",
+          "value": "brick"
+        },
+        {
+          "id": "pavement-190",
+          "value": "pavement"
+        },
+        {
+          "id": "altar-29",
+          "value": "altar"
+        },
+        {
+          "id": "lamina-145",
+          "value": "lamina"
+        },
+        {
+          "id": "basin",
+          "value": "basin"
+        },
+        {
+          "id": "sarcophagus-214",
+          "value": "sarcophagus"
+        },
+        {
+          "id": "moulding-1969",
+          "value": "moulding"
+        },
+        {
+          "id": "column-capital-63",
+          "value": "column-capital"
+        },
+        {
+          "id": "tessera-hospitalis-278",
+          "value": "tessera-hospitalis"
+        },
+        {
+          "id": "tympanum-1952",
+          "value": "tympanum"
+        },
+        {
+          "id": "unknown-2",
+          "value": "unknown"
+        },
+        {
+          "id": "-",
+          "value": "---"
+        }
+      ]
+    },
+    {
+      "id": "epi-writing-languages@en",
+      "entries": [
+        {
+          "id": "grc",
+          "value": "Greek"
+        },
+        {
+          "id": "lat",
+          "value": "Latin"
+        }
+      ]
+    },
+    {
+      "id": "epi-writing-systems@en",
+      "entries": [
+        {
+          "id": "-",
+          "value": "---"
+        },
+        {
+          "id": "latn",
+          "value": "Latin"
+        },
+        {
+          "id": "grek",
+          "value": "Greek"
+        }
+      ]
+    },
+    {
+      "id": "epi-writing-types@en",
+      "entries": [
+        {
+          "id": "-",
+          "value": "---"
+        }
+      ]
+    },
+    {
       "id": "languages@en",
       "entries": [
         {
@@ -827,6 +1096,231 @@
         {
           "id": "spa",
           "value": "Spanish"
+        }
+      ]
+    },
+    {
+      "id": "orthography-tags@en",
+      "entries": [
+        {
+          "id": "grc.-",
+          "value": "Greek"
+        },
+        {
+          "id": "grc.ei=i",
+          "value": "Greek: ει=ι"
+        },
+        {
+          "id": "grc.i=ei",
+          "value": "Greek: ι=ει"
+        },
+        {
+          "id": "grc.h=ei",
+          "value": "Greek: η=ει"
+        },
+        {
+          "id": "grc.ui=i",
+          "value": "Greek: υι=ι"
+        },
+        {
+          "id": "grc.e=ai",
+          "value": "Greek: ε=αι"
+        },
+        {
+          "id": "grc.ο=w",
+          "value": "Greek: ο=ω"
+        },
+        {
+          "id": "grc.oi=u",
+          "value": "Greek: οι=υ"
+        },
+        {
+          "id": "grc.e=h",
+          "value": "Greek: ε=η"
+        },
+        {
+          "id": "grc.a=e",
+          "value": "Greek: α=ε"
+        },
+        {
+          "id": "grc.ai=a",
+          "value": "Greek: αι=α"
+        },
+        {
+          "id": "grc.au=a",
+          "value": "Greek: αυ=α"
+        },
+        {
+          "id": "grc.k=ch",
+          "value": "Greek: κ=χ"
+        },
+        {
+          "id": "grc.ss=s",
+          "value": "Greek: σσ=σ"
+        },
+        {
+          "id": "grc.ll=l",
+          "value": "Greek: λλ=λ"
+        },
+        {
+          "id": "grc.nn=n",
+          "value": "Greek: νν=ν"
+        },
+        {
+          "id": "grc.ch=kch",
+          "value": "Greek: χ=κχ"
+        },
+        {
+          "id": "grc.d=t",
+          "value": "Greek: δ=τ"
+        },
+        {
+          "id": "grc.u=l",
+          "value": "Greek: υ=λ"
+        },
+        {
+          "id": "grc.e=a",
+          "value": "Greek: ε=α"
+        },
+        {
+          "id": "grc.a=h",
+          "value": "Greek: α=η"
+        },
+        {
+          "id": "grc.iuo=iou",
+          "value": "Greek: ιυο=ιου"
+        },
+        {
+          "id": "grc.ei=ie",
+          "value": "Greek: ει=ιε"
+        },
+        {
+          "id": "lat.-",
+          "value": "Latin"
+        },
+        {
+          "id": "lat.e=i-long",
+          "value": "Latin: e=i-long"
+        },
+        {
+          "id": "lat.ie=ei",
+          "value": "Latin: ie=ei"
+        },
+        {
+          "id": "lat.ei=ie",
+          "value": "Latin: ei=ie"
+        },
+        {
+          "id": "lat.ei=i",
+          "value": "Latin: ei=i"
+        },
+        {
+          "id": "lat.e=he",
+          "value": "Latin: e=he"
+        },
+        {
+          "id": "lat.e=i",
+          "value": "Latin: e=i"
+        },
+        {
+          "id": "lat.i=e",
+          "value": "Latin: i=e"
+        },
+        {
+          "id": "lat.b=v",
+          "value": "Latin: b=v"
+        },
+        {
+          "id": "lat.b=d",
+          "value": "Latin: b=d"
+        },
+        {
+          "id": "lat.b=p",
+          "value": "Latin: b=p"
+        },
+        {
+          "id": "lat.d=t",
+          "value": "Latin: d=t"
+        },
+        {
+          "id": "lat.xs=x",
+          "value": "Latin: xs=x"
+        },
+        {
+          "id": "lat.cs=x",
+          "value": "Latin: cs=x"
+        },
+        {
+          "id": "lat.u=o",
+          "value": "Latin: u=o"
+        },
+        {
+          "id": "lat.o=u",
+          "value": "Latin: o=u"
+        },
+        {
+          "id": "lat.rr=r",
+          "value": "Latin: rr=r"
+        },
+        {
+          "id": "lat.f=e",
+          "value": "Latin: f=e"
+        },
+        {
+          "id": "lat.is=i",
+          "value": "Latin: is=i"
+        },
+        {
+          "id": "lat.f=ph",
+          "value": "Latin: f=ph"
+        },
+        {
+          "id": "lat.ph=f",
+          "value": "Latin: ph=f"
+        },
+        {
+          "id": "lat.e=ae",
+          "value": "Latin: e=ae"
+        },
+        {
+          "id": "lat.i=ii",
+          "value": "Latin: i=ii"
+        },
+        {
+          "id": "lat.y=u",
+          "value": "Latin: y=u"
+        },
+        {
+          "id": "lat.i=y",
+          "value": "Latin: i=y"
+        },
+        {
+          "id": "lat.ll=l",
+          "value": "Latin: ll=l"
+        },
+        {
+          "id": "lat.u=y",
+          "value": "Latin: u=y"
+        },
+        {
+          "id": "lat.o=e",
+          "value": "Latin: o=e"
+        },
+        {
+          "id": "lat.n=nt",
+          "value": "Latin: n=nt"
+        },
+        {
+          "id": "lat.s=ns",
+          "value": "Latin: s=ns"
+        },
+        {
+          "id": "lat.c=g",
+          "value": "Latin: c=g"
+        },
+        {
+          "id": "lat.c=q",
+          "value": "Latin: c=q"
         }
       ]
     },
