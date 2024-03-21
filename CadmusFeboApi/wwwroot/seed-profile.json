@@ -460,7 +460,7 @@
   "flags": [
     {
       "id": 1,
-      "label": "completo",
+      "label": "complete",
       "description": "Completed.",
       "colorKey": "49D6CD"
     },
