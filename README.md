@@ -12,3 +12,11 @@ API service for Cadmus FeBo (_Federalism and Border Management in Greek Antiquit
 (replace with the current version).
 
 This is a Cadmus API layer customized for the PRJ project. Most of its code is derived from shared Cadmus libraries.
+
+## History
+
+- 2024-04-11: updated packages.
+
+### 0.0.1
+
+- initial release.
