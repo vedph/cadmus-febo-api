@@ -79,7 +79,7 @@ public sealed class Startup
     /// <param name="services">The services.</param>
     private void ConfigureCorsServices(IServiceCollection services)
     {
-        string[] origins = new[] { "http://localhost:4200" };
+        string[] origins = ["http://localhost:4200"];
 
         IConfigurationSection section = Configuration.GetSection("AllowedOrigins");
         if (section.Exists())
@@ -211,8 +211,7 @@ public sealed class Startup
         // get dependencies
         ICadmusRepository repository =
                 provider.GetService<IRepositoryProvider>()!.CreateRepository();
-        ICadmusPreviewFactoryProvider factoryProvider =
-            new StandardCadmusPreviewFactoryProvider();
+        StandardCadmusPreviewFactoryProvider factoryProvider = new();
 
         // nope if disabled
         if (!Configuration.GetSection("Preview").GetSection("IsEnabled")
@@ -316,6 +315,10 @@ public sealed class Startup
         // CORS (before MVC)
         ConfigureCorsServices(services);
 
+        // proxy
+        services.AddHttpClient();
+        services.AddResponseCaching();
+
         // base services
         services.AddControllers();
         // camel-case JSON in response
@@ -341,7 +344,7 @@ public sealed class Startup
             ApplicationUserRepository>();
 
         // messaging
-        // TODO: you can use another mailer service here. In this case,
+        // you can use another mailer service here. In this case,
         // also change the types in ConfigureOptionsServices.
         services.AddTransient<IMailerService, DotNetMailerService>();
         services.AddTransient<IMessageBuilderService,
@@ -418,6 +421,9 @@ public sealed class Startup
         app.UseCors("CorsPolicy");
         app.UseAuthentication();
         app.UseAuthorization();
+
+        // proxy
+        app.UseResponseCaching();
 
         app.UseEndpoints(endpoints =>
         {
