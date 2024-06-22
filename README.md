@@ -15,6 +15,7 @@ This is a Cadmus API layer customized for the PRJ project. Most of its code is d
 
 ## History
 
+- 2024-06-22: replaced historical datation part with chronotopes in inscription facet.
 - 2024-06-09: updated packages.
 - 2024-05-23: updated packages.
 - 2024-05-11: added proxy.

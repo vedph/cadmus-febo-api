@@ -89,9 +89,9 @@
           "sortKey": "j"
         },
         {
-          "typeId": "it.vedph.historical-date",
-          "name": "datation",
-          "description": "Historical datation.",
+          "typeId": "it.vedph.chronotopes",
+          "name": "chronotopes",
+          "description": "A list of place/date indications.",
           "colorKey": "9F84BD",
           "groupKey": "localization",
           "sortKey": "k"
@@ -503,6 +503,10 @@
           "value": "categories"
         },
         {
+          "id": "it.vedph.chronotopes",
+          "value": "chronotopes"
+        },
+        {
           "id": "it.vedph.comment",
           "value": "comment"
         },
@@ -529,10 +533,6 @@
         {
           "id": "it.vedph.geo.asserted-toponyms",
           "value": "toponyms"
-        },
-        {
-          "id": "it.vedph.historical-date",
-          "value": "datation"
         },
         {
           "id": "it.vedph.index-keywords",
@@ -1356,7 +1356,7 @@
             "Sampson,James",
             "Voss,Francis"
           ],
-          "journals": ["AJPh", "CJ", "CPh", "CQ", "IF"]
+          "journals": [ "AJPh", "CJ", "CPh", "CQ", "IF" ]
         }
       },
       {
@@ -1370,10 +1370,13 @@
         }
       },
       {
+        "id": "seed.it.vedph.chronotopes"
+      },
+      {
         "id": "seed.it.vedph.comment",
         "options": {
-          "languages": ["eng", "ita"],
-          "categories": ["war", "peace"]
+          "languages": [ "eng", "ita" ],
+          "categories": [ "war", "peace" ]
         }
       },
       {
@@ -1383,13 +1386,10 @@
         "id": "seed.it.vedph.external-ids"
       },
       {
-        "id": "seed.it.vedph.historical-date"
-      },
-      {
         "id": "seed.it.vedph.index-keywords",
         "options": {
-          "indexIds": ["persons", "places"],
-          "languages": ["eng", "deu", "ita", "fra", "spa"]
+          "indexIds": [ "persons", "places" ],
+          "languages": [ "eng", "deu", "ita", "fra", "spa" ]
         }
       },
       {
