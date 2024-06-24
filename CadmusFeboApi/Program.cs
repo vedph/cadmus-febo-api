@@ -50,7 +50,7 @@ public static class Program
     private static void ConfigurePostgreLogging(HostBuilderContext context,
         LoggerConfiguration loggerConfiguration)
     {
-        string cs = context.Configuration.GetConnectionString("PostgresLog");
+        string? cs = context.Configuration.GetConnectionString("PostgresLog");
         if (string.IsNullOrEmpty(cs))
         {
             Console.WriteLine("Postgres log connection string not found");

@@ -57,12 +57,28 @@
           "sortKey": "f"
         },
         {
+          "typeId": "it.vedph.epigraphy.support-frr",
+          "name": "fragments",
+          "description": "Material support fragments.",
+          "colorKey": "82AE31",
+          "groupKey": "general",
+          "sortKey": "g"
+        },
+        {
           "typeId": "it.vedph.epigraphy.writing",
           "name": "writing",
           "description": "Description of writing.",
           "colorKey": "048BA8",
           "groupKey": "general",
-          "sortKey": "g"
+          "sortKey": "h"
+        },
+        {
+          "typeId": "it.vedph.epigraphy.signs",
+          "name": "signs",
+          "description": "Writing signs.",
+          "colorKey": "31A8AE",
+          "groupKey": "general",
+          "sortKey": "i"
         },
         {
           "typeId": "it.vedph.note",
@@ -70,7 +86,7 @@
           "description": "Free text note.",
           "colorKey": "FFB17A",
           "groupKey": "general",
-          "sortKey": "h"
+          "sortKey": "j"
         },
         {
           "typeId": "it.vedph.geo.asserted-locations",
@@ -78,7 +94,7 @@
           "description": "Locations.",
           "colorKey": "FFB17A",
           "groupKey": "localization",
-          "sortKey": "i"
+          "sortKey": "k"
         },
         {
           "typeId": "it.vedph.geo.asserted-toponyms",
@@ -86,7 +102,7 @@
           "description": "Toponyms.",
           "colorKey": "8275BD",
           "groupKey": "localization",
-          "sortKey": "j"
+          "sortKey": "l"
         },
         {
           "typeId": "it.vedph.chronotopes",
@@ -94,7 +110,7 @@
           "description": "A list of place/date indications.",
           "colorKey": "9F84BD",
           "groupKey": "localization",
-          "sortKey": "k"
+          "sortKey": "m"
         },
         {
           "typeId": "it.vedph.token-text",
@@ -103,7 +119,7 @@
           "description": "Inscription's text.",
           "colorKey": "2EBFA5",
           "groupKey": "text",
-          "sortKey": "l"
+          "sortKey": "n"
         },
         {
           "typeId": "it.vedph.note",
@@ -112,7 +128,7 @@
           "description": "Inscription's translation.",
           "colorKey": "8D93A5",
           "groupKey": "text",
-          "sortKey": "m"
+          "sortKey": "o"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -121,7 +137,7 @@
           "description": "Critical apparatus.",
           "colorKey": "D4E0A4",
           "groupKey": "text",
-          "sortKey": "n"
+          "sortKey": "p"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -130,7 +146,7 @@
           "description": "Comments to text portions.",
           "colorKey": "28666E",
           "groupKey": "text",
-          "sortKey": "o"
+          "sortKey": "q"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -139,7 +155,7 @@
           "description": "Chronological indications in text.",
           "colorKey": "7582BD",
           "groupKey": "text",
-          "sortKey": "p"
+          "sortKey": "r"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -148,7 +164,7 @@
           "description": "Standard orthography.",
           "colorKey": "E0D4A4",
           "groupKey": "text",
-          "sortKey": "q"
+          "sortKey": "s"
         },
         {
           "typeId": "it.vedph.comment",
@@ -156,7 +172,7 @@
           "description": "General comment.",
           "colorKey": "28666E",
           "groupKey": "comment",
-          "sortKey": "r"
+          "sortKey": "t"
         },
         {
           "typeId": "it.vedph.bibliography",
@@ -164,7 +180,7 @@
           "description": "Bibliography about inscription.",
           "colorKey": "4C5EA9",
           "groupKey": "references",
-          "sortKey": "s"
+          "sortKey": "u"
         },
         {
           "typeId": "it.vedph.doc-references",
@@ -172,7 +188,7 @@
           "description": "Short documental references.",
           "colorKey": "AAAA9D",
           "groupKey": "references",
-          "sortKey": "t"
+          "sortKey": "v"
         }
       ]
     },
@@ -515,8 +531,16 @@
           "value": "references"
         },
         {
+          "id": "it.vedph.epigraphy.signs",
+          "value": "signs"
+        },
+        {
           "id": "it.vedph.epigraphy.support",
           "value": "support"
+        },
+        {
+          "id": "it.vedph.epigraphy.support-frr",
+          "value": "fragments"
         },
         {
           "id": "it.vedph.epigraphy.writing",
@@ -1381,6 +1405,18 @@
       },
       {
         "id": "seed.it.vedph.doc-references"
+      },
+      {
+        "id": "seed.it.vedph.epigraphy.signs"
+      },
+      {
+        "id": "seed.it.vedph.epigraphy.support"
+      },
+      {
+        "id": "seed.it.vedph.epigraphy.support-frr"
+      },
+      {
+        "id": "seed.it.vedph.epigraphy.writing"
       },
       {
         "id": "seed.it.vedph.external-ids"

@@ -3,7 +3,7 @@
 - [models](https://github.com/vedph/cadmus-febo)
 - [app](https://github.com/vedph/cadmus-febo-app)
 
-API service for Cadmus FeBo (_Federalism and Border Management in Greek Antiquity_).
+API service for Cadmus [FeBo](https://erc-febo.unitn.it) (_Federalism and Border Management in Greek Antiquity_).
 
 🐋 Quick Docker image build:
 
@@ -15,6 +15,9 @@ This is a Cadmus API layer customized for the PRJ project. Most of its code is d
 
 ## History
 
+- 2024-06-24:
+  - updated packages.
+  - added epigraphic parts for fragments and signs.
 - 2024-06-22: replaced historical datation part with chronotopes in inscription facet.
 - 2024-06-09: updated packages.
 - 2024-05-23: updated packages.

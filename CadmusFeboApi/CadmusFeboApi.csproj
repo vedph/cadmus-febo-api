@@ -18,8 +18,8 @@
 		<PackageReference Include="Cadmus.Graph" Version="7.0.3" />
 		<PackageReference Include="Cadmus.Graph.Ef.PgSql" Version="7.0.3" />
 		<PackageReference Include="Cadmus.Graph.Extras" Version="7.0.3" />
-		<PackageReference Include="Cadmus.Febo.Services" Version="0.0.3" />
-		<PackageReference Include="Cadmus.Seed.Codicology.Parts" Version="6.0.3" />
+		<PackageReference Include="Cadmus.Febo.Services" Version="0.0.5" />
+		<PackageReference Include="Cadmus.Seed.Codicology.Parts" Version="6.0.4" />
 		<PackageReference Include="Cadmus.Seed.General.Parts" Version="6.1.0" />
 		<PackageReference Include="Cadmus.Seed.Philology.Parts" Version="8.2.0" />
 		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.6" />
@@ -31,8 +31,8 @@
 		<PackageReference Include="Serilog.AspNetCore" Version="8.0.1" />
 		<PackageReference Include="Serilog.Exceptions" Version="8.4.0" />
 		<PackageReference Include="Serilog.Extensions.Hosting" Version="8.0.0" />
-		<PackageReference Include="Serilog.Sinks.Console" Version="5.0.1" />
-		<PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
+		<PackageReference Include="Serilog.Sinks.Console" Version="6.0.0" />
+		<PackageReference Include="Serilog.Sinks.File" Version="6.0.0" />
 		<PackageReference Include="Serilog.Sinks.MongoDB" Version="5.4.1" />
 		<PackageReference Include="Serilog.Sinks.Postgresql.Alternative" Version="4.0.4" />
 		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
