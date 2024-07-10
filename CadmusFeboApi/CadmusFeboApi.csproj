@@ -34,7 +34,7 @@
 		<PackageReference Include="Serilog.Sinks.Console" Version="6.0.0" />
 		<PackageReference Include="Serilog.Sinks.File" Version="6.0.0" />
 		<PackageReference Include="Serilog.Sinks.MongoDB" Version="5.4.1" />
-		<PackageReference Include="Serilog.Sinks.Postgresql.Alternative" Version="4.0.4" />
+		<PackageReference Include="Serilog.Sinks.Postgresql.Alternative" Version="4.1.1" />
 		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
 	</ItemGroup>
 
