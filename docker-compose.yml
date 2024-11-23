@@ -1,5 +1,3 @@
-version: '3.7'
-
 services:
   # MongoDB
   cadmus-febo-mongo:
@@ -29,7 +27,7 @@ services:
 
   # Cadmus febo API
   cadmus-febo-api:
-    image: vedph2020/cadmus-febo-api:0.0.3
+    image: vedph2020/cadmus-febo-api:1.0.0
     container_name: cadmus-febo-api
     ports:
       - 5105:8080
@@ -37,11 +35,13 @@ services:
       - cadmus-febo-mongo
       - cadmus-febo-pgsql
     environment:
+      - ASPNETCORE_URLS=http://+:8080
       - CONNECTIONSTRINGS__DEFAULT=mongodb://cadmus-febo-mongo:27017/{0}
+      - CONNECTIONSTRINGS__AUTH=Server=cadmus-febo-pgsql;port=5432;Database={0};User Id=postgres;Password=postgres;Include Error Detail=True
       - CONNECTIONSTRINGS__INDEX=Server=cadmus-febo-pgsql;port=5432;Database={0};User Id=postgres;Password=postgres;Include Error Detail=True
       - SERILOG__CONNECTIONSTRING=mongodb://cadmus-febo-mongo:27017/{0}-log
       - STOCKUSERS__0__PASSWORD=P4ss-W0rd!
-      - SEED__INDEXDELAY=25
+      - SEED__DELAY=20
       - MESSAGING__APIROOTURL=http://cadmusapi.azurewebsites.net
       - MESSAGING__APPROOTURL=http://cadmusapi.com/
       - MESSAGING__SUPPORTEMAIL=support@cadmus.com
