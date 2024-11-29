@@ -203,7 +203,11 @@ public static class Program
             // map controllers and Scalar API
             app.MapControllers();
             app.MapOpenApi();
-            app.MapScalarApiReference();
+            app.MapScalarApiReference(options =>
+            {
+                options.WithTitle("Cadmus FeBo API")
+                       .WithPreferredScheme("Bearer");
+            });
 
             Log.Information("Running API");
             await app.RunAsync();
