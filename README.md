@@ -7,13 +7,15 @@ API service for Cadmus [FeBo](https://erc-febo.unitn.it) (_Federalism and Border
 
 🐋 Quick Docker image build:
 
-    docker build . -t vedph2020/cadmus-febo-api:0.0.3 -t vedph2020/cadmus-febo-api:latest
+    docker build . -t vedph2020/cadmus-febo-api:1.0.1 -t vedph2020/cadmus-febo-api:latest
 
 (replace with the current version).
 
 This is a Cadmus API layer customized for the PRJ project. Most of its code is derived from shared Cadmus libraries.
 
 ## History
+
+### 1.0.1
 
 - 2024-11-29: updated packages.
 
