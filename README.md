@@ -15,6 +15,8 @@ This is a Cadmus API layer customized for the PRJ project. Most of its code is d
 
 ## History
 
+- 2024-12-23: updated packages.
+
 ### 1.0.2
 
 - 2024-12-21: updated packages.
