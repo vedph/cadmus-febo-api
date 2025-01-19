@@ -5,9 +5,13 @@
 
 API service for Cadmus [FeBo](https://erc-febo.unitn.it) (_Federalism and Border Management in Greek Antiquity_).
 
-🐋 Quick Docker image build:
+🐋 Quick Docker image build (you need to have a `buildx` container):
 
-    docker build . -t vedph2020/cadmus-febo-api:1.0.2 -t vedph2020/cadmus-febo-api:latest
+```bash
+docker buildx create --use
+
+docker buildx build . --platform linux/amd64,linux/arm64 -t vedph2020/cadmus-febo-api:1.0.3 -t vedph2020/cadmus-febo-api:latest --push
+```
 
 (replace with the current version).
 
@@ -15,6 +19,7 @@ This is a Cadmus API layer customized for the PRJ project. Most of its code is d
 
 ## History
 
+- 2025-01-19: updated packages.
 - 2025-01-01: updated packages.
 - 2024-12-23: updated packages.
 

@@ -27,7 +27,7 @@ services:
 
   # Cadmus febo API
   cadmus-febo-api:
-    image: vedph2020/cadmus-febo-api:1.0.2
+    image: vedph2020/cadmus-febo-api:1.0.3
     container_name: cadmus-febo-api
     ports:
       - 5105:8080

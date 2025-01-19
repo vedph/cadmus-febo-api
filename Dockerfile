@@ -1,10 +1,10 @@
 # Stage 1: base
-FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS base
+FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/aspnet:9.0 AS base
 WORKDIR /app
 EXPOSE 8080
 
 # Stage 2: build
-FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
+FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:9.0 AS build
 WORKDIR /src
 COPY ["CadmusFeboApi/CadmusFeboApi.csproj", "CadmusFeboApi/"]
 RUN dotnet restore "CadmusFeboApi/CadmusFeboApi.csproj" -s https://api.nuget.org/v3/index.json --verbosity n
