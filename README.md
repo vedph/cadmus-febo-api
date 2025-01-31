@@ -23,7 +23,7 @@ This is a Cadmus API layer customized for the PRJ project. Most of its code is d
 
 ### 1.0.3
 
-- - 2025-01-23: updated packages.
+- 2025-01-23: updated packages.
 - 2025-01-19: updated packages.
 - 2025-01-01: updated packages.
 - 2024-12-23: updated packages.
