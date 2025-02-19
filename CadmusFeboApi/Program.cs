@@ -17,6 +17,7 @@ using Cadmus.Api.Controllers;
 using Cadmus.Api.Config.Services;
 using Cadmus.Api.Config;
 using Cadmus.Febo.Services;
+using Cadmus.Api.Controllers.Import;
 
 namespace CadmusFeboApi;
 
@@ -141,6 +142,7 @@ public static class Program
             // controllers from Cadmus.Api.Controllers
             builder.Services.AddControllers()
                 .AddApplicationPart(typeof(ItemController).Assembly)
+                .AddApplicationPart(typeof(ThesaurusImportController).Assembly)
                 .AddControllersAsServices();
 
             WebApplication app = builder.Build();
