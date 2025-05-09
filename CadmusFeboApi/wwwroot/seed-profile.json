@@ -608,6 +608,22 @@
           "value": "layer"
         },
         {
+          "id": "it.vedph.token-text-layer:fr.it.vedph.apparatus",
+          "value": "apparatus layer"
+        },
+        {
+          "id": "it.vedph.token-text-layer:fr.it.vedph.chronology",
+          "value": "chronology layer"
+        },
+        {
+          "id": "it.vedph.token-text-layer:fr.it.vedph.comment",
+          "value": "comment layer"
+        },
+        {
+          "id": "it.vedph.token-text-layer:fr.it.vedph.orthography",
+          "value": "orthography layer"
+        },
+        {
           "id": "fr.it.vedph.apparatus",
           "value": "fr.apparatus"
         },
@@ -701,6 +717,19 @@
         {
           "id": "organization",
           "value": "organization"
+        }
+      ]
+    },
+    {
+      "id": "categories_epilng@en",
+      "entries": [
+        {
+          "id": "grc",
+          "value": "Greek"
+        },
+        {
+          "id": "lat",
+          "value": "Latin"
         }
       ]
     },
@@ -928,6 +957,32 @@
       ]
     },
     {
+      "id": "epi-script-systems@en",
+      "entries": [
+        {
+          "id": "-",
+          "value": "---"
+        },
+        {
+          "id": "latn",
+          "value": "Latin"
+        },
+        {
+          "id": "grek",
+          "value": "Greek"
+        }
+      ]
+    },
+    {
+      "id": "epi-scripts@en",
+      "entries": [
+        {
+          "id": "-",
+          "value": "---"
+        }
+      ]
+    },
+    {
       "id": "epi-support-object-types@en",
       "entries": [
         {
@@ -1070,45 +1125,6 @@
           "id": "unknown-2",
           "value": "unknown"
         },
-        {
-          "id": "-",
-          "value": "---"
-        }
-      ]
-    },
-    {
-      "id": "categories_epilng@en",
-      "entries": [
-        {
-          "id": "grc",
-          "value": "Greek"
-        },
-        {
-          "id": "lat",
-          "value": "Latin"
-        }
-      ]
-    },
-    {
-      "id": "epi-scripts-systems@en",
-      "entries": [
-        {
-          "id": "-",
-          "value": "---"
-        },
-        {
-          "id": "latn",
-          "value": "Latin"
-        },
-        {
-          "id": "grek",
-          "value": "Greek"
-        }
-      ]
-    },
-    {
-      "id": "epi-scripts@en",
-      "entries": [
         {
           "id": "-",
           "value": "---"
