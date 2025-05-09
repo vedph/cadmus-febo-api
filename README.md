@@ -19,6 +19,12 @@ This is a Cadmus API layer customized for the PRJ project. Most of its code is d
 
 ## History
 
+### 2.0.0
+
+- 2025-05-09:
+  - ⚠️ updated packages (epigraphic models).
+  - updated preview profile.
+
 ### 1.0.5
 
 - 2025-02-19: added `.AddApplicationPart(typeof(ThesaurusImportController).Assembly)`.
