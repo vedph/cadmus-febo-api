@@ -15,10 +15,10 @@
           "sortKey": "01"
         },
         {
-          "typeId": "it.vedph.external-ids",
-          "name": "external ID",
-          "description": "External entity identifiers.",
-          "colorKey": "2F4F4F",
+          "typeId": "it.vedph.pin-links",
+          "name": "links",
+          "description": "Inner/outer links.",
+          "colorKey": "5CA8FF",
           "groupKey": "general",
           "sortKey": "02"
         },
@@ -216,13 +216,21 @@
           "sortKey": "01"
         },
         {
+          "typeId": "it.vedph.pin-links",
+          "name": "links",
+          "description": "Inner/outer links.",
+          "colorKey": "5CA8FF",
+          "groupKey": "general",
+          "sortKey": "02"
+        },
+        {
           "typeId": "it.vedph.categories",
           "roleId": "topic",
           "name": "topics",
           "description": "Conflict topics.",
           "colorKey": "8080E0",
           "groupKey": "general",
-          "sortKey": "02"
+          "sortKey": "03"
         },
         {
           "typeId": "it.vedph.index-keywords",
@@ -230,7 +238,7 @@
           "description": "Keywords.",
           "colorKey": "FFA500",
           "groupKey": "general",
-          "sortKey": "03"
+          "sortKey": "04"
         },
         {
           "typeId": "it.vedph.note",
@@ -238,7 +246,7 @@
           "description": "Free text note.",
           "colorKey": "FFB17A",
           "groupKey": "general",
-          "sortKey": "04"
+          "sortKey": "05"
         },
         {
           "typeId": "it.vedph.token-text",
@@ -247,7 +255,7 @@
           "description": "Passage's text.",
           "colorKey": "2EBFA5",
           "groupKey": "text",
-          "sortKey": "05"
+          "sortKey": "06"
         },
         {
           "typeId": "it.vedph.note",
@@ -256,7 +264,7 @@
           "description": "Passage's translation.",
           "colorKey": "8D93A5",
           "groupKey": "text",
-          "sortKey": "06"
+          "sortKey": "07"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -265,7 +273,7 @@
           "description": "Critical apparatus.",
           "colorKey": "D4E0A4",
           "groupKey": "text",
-          "sortKey": "07"
+          "sortKey": "08"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -274,7 +282,7 @@
           "description": "Comments to text portions.",
           "colorKey": "28666E",
           "groupKey": "text",
-          "sortKey": "08"
+          "sortKey": "09"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -283,7 +291,7 @@
           "description": "Chronological indications in text.",
           "colorKey": "7582BD",
           "groupKey": "text",
-          "sortKey": "09"
+          "sortKey": "10"
         },
         {
           "typeId": "it.vedph.comment",
@@ -291,7 +299,7 @@
           "description": "General comment.",
           "colorKey": "28666E",
           "groupKey": "comment",
-          "sortKey": "10"
+          "sortKey": "11"
         },
         {
           "typeId": "it.vedph.bibliography",
@@ -299,7 +307,7 @@
           "description": "Bibliography about passage.",
           "colorKey": "4C5EA9",
           "groupKey": "references",
-          "sortKey": "11"
+          "sortKey": "12"
         },
         {
           "typeId": "it.vedph.doc-references",
@@ -307,7 +315,7 @@
           "description": "Short documental references.",
           "colorKey": "AAAA9D",
           "groupKey": "references",
-          "sortKey": "12"
+          "sortKey": "13"
         }
       ]
     },
@@ -326,10 +334,10 @@
           "sortKey": "01"
         },
         {
-          "typeId": "it.vedph.external-ids",
-          "name": "external IDs",
-          "description": "External identifiers.",
-          "colorKey": "BEE0CA",
+          "typeId": "it.vedph.pin-links",
+          "name": "links",
+          "description": "Inner/outer links.",
+          "colorKey": "5CA8FF",
           "groupKey": "general",
           "sortKey": "02"
         },
@@ -407,10 +415,10 @@
           "sortKey": "01"
         },
         {
-          "typeId": "it.vedph.external-ids",
-          "name": "external IDs",
-          "description": "External identifiers.",
-          "colorKey": "BEE0CA",
+          "typeId": "it.vedph.pin-links",
+          "name": "links",
+          "description": "Inner/outer links.",
+          "colorKey": "5CA8FF",
           "groupKey": "general",
           "sortKey": "02"
         },
@@ -584,6 +592,10 @@
           "value": "toponyms"
         },
         {
+          "id": "it.vedph.historical-events",
+          "value": "events"
+        },
+        {
           "id": "it.vedph.index-keywords",
           "value": "keywords"
         },
@@ -598,6 +610,10 @@
         {
           "id": "it.vedph.note:trans",
           "value": "translation"
+        },
+        {
+          "id": "it.vedph.pin-links",
+          "value": "links"
         },
         {
           "id": "it.vedph.token-text",
@@ -657,10 +673,6 @@
           "value": "organizzazione"
         }
       ]
-    },
-    {
-      "id": "bibliography-languages@en",
-      "targetId": "languages"
     },
     {
       "id": "bibliography-types@en",
@@ -1135,15 +1147,15 @@
       "id": "languages@en",
       "entries": [
         {
-          "id": "eng",
+          "id": "en",
           "value": "English"
         },
         {
-          "id": "fre",
+          "id": "fr",
           "value": "French"
         },
         {
-          "id": "deu",
+          "id": "de",
           "value": "German"
         },
         {
@@ -1151,19 +1163,19 @@
           "value": "Greek"
         },
         {
-          "id": "gre",
+          "id": "el",
           "value": "Mod.Greek"
         },
         {
-          "id": "ita",
+          "id": "it",
           "value": "Italian"
         },
         {
-          "id": "lat",
+          "id": "la",
           "value": "Latin"
         },
         {
-          "id": "spa",
+          "id": "es",
           "value": "Spanish"
         }
       ]
@@ -1444,7 +1456,7 @@
       {
         "id": "seed.it.vedph.comment",
         "options": {
-          "languages": [ "eng", "ita" ],
+          "languages": [ "en", "it" ],
           "categories": [ "war", "peace" ]
         }
       },
@@ -1470,7 +1482,7 @@
         "id": "seed.it.vedph.index-keywords",
         "options": {
           "indexIds": [ "persons", "places" ],
-          "languages": [ "eng", "deu", "ita", "fra", "spa" ]
+          "languages": [ "en", "de", "it", "fr", "sp" ]
         }
       },
       {
@@ -1496,7 +1508,7 @@
       {
         "id": "seed.fr.it.vedph.comment",
         "options": {
-          "languages": ["eng", "ita"],
+          "languages": ["en", "it"],
           "categories": ["war", "peace"]
         }
       }
