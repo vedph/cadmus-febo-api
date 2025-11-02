@@ -19,6 +19,10 @@ This is a Cadmus API layer customized for the PRJ project. Most of its code is d
 
 ## History
 
+- 2025-11-02:
+  - updated packages.
+  - added orthography thesauri.
+
 ### 2.0.2
 
 - 2025-10-06:

@@ -1181,7 +1181,20 @@
       ]
     },
     {
-      "id": "orthography-tags@en",
+      "id": "orthography-languages@en",
+      "entries": [
+        {
+          "id": "grc",
+          "value": "Ancient Greek"
+        },
+        {
+          "id": "la",
+          "value": "Latin"
+        }
+      ]
+    },
+    {
+      "id": "orthography-op-tags@en",
       "entries": [
         {
           "id": "grc.-",
@@ -1402,6 +1415,23 @@
         {
           "id": "lat.c=q",
           "value": "Latin: c=q"
+        }
+      ]
+    },
+    {
+      "id": "orthography-tags@en",
+      "entries": [
+        {
+          "id": "archaic",
+          "value": "archaic"
+        },
+        {
+          "id": "vulgar",
+          "value": "vulgar"
+        },
+        {
+          "id": "epichoric",
+          "value": "epichoric"
         }
       ]
     },
