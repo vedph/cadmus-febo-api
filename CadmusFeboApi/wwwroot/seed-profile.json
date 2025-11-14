@@ -167,29 +167,12 @@
           "sortKey": "19"
         },
         {
-          "typeId": "it.vedph.token-text-layer",
-          "roleId": "fr.it.vedph.orthography",
-          "name": "orthography",
-          "description": "Standard orthography.",
-          "colorKey": "E0D4A4",
-          "groupKey": "text",
-          "sortKey": "20"
-        },
-        {
           "typeId": "it.vedph.comment",
           "name": "comment",
           "description": "General comment.",
           "colorKey": "28666E",
           "groupKey": "comment",
-          "sortKey": "21"
-        },
-        {
-          "typeId": "it.vedph.bibliography",
-          "name": "bibliography",
-          "description": "Bibliography about inscription.",
-          "colorKey": "4C5EA9",
-          "groupKey": "references",
-          "sortKey": "22"
+          "sortKey": "20"
         },
         {
           "typeId": "it.vedph.doc-references",
@@ -197,7 +180,7 @@
           "description": "Short documental references.",
           "colorKey": "AAAA9D",
           "groupKey": "references",
-          "sortKey": "23"
+          "sortKey": "21"
         }
       ]
     },
@@ -302,11 +285,11 @@
           "sortKey": "11"
         },
         {
-          "typeId": "it.vedph.bibliography",
-          "name": "bibliography",
-          "description": "Bibliography about passage.",
-          "colorKey": "4C5EA9",
-          "groupKey": "references",
+          "typeId": "it.vedph.chronotopes",
+          "name": "chronotopes",
+          "description": "A list of cited places.",
+          "colorKey": "9F84BD",
+          "groupKey": "comment",
           "sortKey": "12"
         },
         {
@@ -383,20 +366,12 @@
           "sortKey": "07"
         },
         {
-          "typeId": "it.vedph.bibliography",
-          "name": "bibliography",
-          "description": "Bibliography about passage.",
-          "colorKey": "4C5EA9",
-          "groupKey": "references",
-          "sortKey": "08"
-        },
-        {
           "typeId": "it.vedph.doc-references",
           "name": "references",
           "description": "Short documental references.",
           "colorKey": "AAAA9D",
           "groupKey": "references",
-          "sortKey": "09"
+          "sortKey": "08"
         }
       ]
     },
@@ -464,19 +439,19 @@
           "sortKey": "07"
         },
         {
+          "typeId": "it.vedph.chronotopes",
+          "name": "chronotopes",
+          "description": "A list of places related to the actor.",
+          "colorKey": "9F84BD",
+          "groupKey": "comment",
+          "sortKey": "08"
+        },
+        {
           "typeId": "it.vedph.historical-events",
           "name": "events",
           "description": "Historical events.",
           "colorKey": "C898C8",
           "groupKey": "comment",
-          "sortKey": "08"
-        },
-        {
-          "typeId": "it.vedph.bibliography",
-          "name": "bibliography",
-          "description": "Bibliography about passage.",
-          "colorKey": "4C5EA9",
-          "groupKey": "references",
           "sortKey": "09"
         },
         {
@@ -527,10 +502,6 @@
     {
       "id": "model-types@en",
       "entries": [
-        {
-          "id": "it.vedph.bibliography",
-          "value": "bibliography"
-        },
         {
           "id": "it.vedph.categories",
           "value": "categories"
@@ -604,6 +575,10 @@
           "value": "metadata"
         },
         {
+          "id": "it.vedph.names",
+          "value": "names"
+        },
+        {
           "id": "it.vedph.note",
           "value": "note"
         },
@@ -636,10 +611,6 @@
           "value": "comment layer"
         },
         {
-          "id": "it.vedph.token-text-layer:fr.it.vedph.orthography",
-          "value": "orthography layer"
-        },
-        {
           "id": "fr.it.vedph.apparatus",
           "value": "fr.apparatus"
         },
@@ -650,72 +621,6 @@
         {
           "id": "fr.it.vedph.comment",
           "value": "fr.comment"
-        },
-        {
-          "id": "fr.it.vedph.orthography",
-          "value": "fr.orthography"
-        }
-      ]
-    },
-    {
-      "id": "bibliography-author-roles@en",
-      "entries": [
-        {
-          "id": "ed",
-          "value": "editore"
-        },
-        {
-          "id": "tr",
-          "value": "traduttore"
-        },
-        {
-          "id": "org",
-          "value": "organizzazione"
-        }
-      ]
-    },
-    {
-      "id": "bibliography-types@en",
-      "entries": [
-        {
-          "id": "book",
-          "value": "libro"
-        },
-        {
-          "id": "article-j",
-          "value": "art.rivista"
-        },
-        {
-          "id": "article-b",
-          "value": "art.libro"
-        },
-        {
-          "id": "article-p",
-          "value": "art.atti"
-        },
-        {
-          "id": "review",
-          "value": "recensione"
-        },
-        {
-          "id": "ebook",
-          "value": "e-book"
-        },
-        {
-          "id": "site",
-          "value": "sito web"
-        },
-        {
-          "id": "magazine",
-          "value": "rivista"
-        },
-        {
-          "id": "newspaper",
-          "value": "quotidiano"
-        },
-        {
-          "id": "tweet",
-          "value": "tweet"
         }
       ]
     },
@@ -886,6 +791,10 @@
     {
       "id": "comment-categories@en",
       "targetId": "categories_topic"
+    },
+    {
+      "id": "comment-keyword-languages@en",
+      "targetId": "languages"
     },
     {
       "id": "epi-support-materials@en",
@@ -1151,287 +1060,36 @@
           "value": "English"
         },
         {
-          "id": "fr",
-          "value": "French"
-        },
-        {
           "id": "de",
           "value": "German"
         },
         {
-          "id": "grc",
-          "value": "Greek"
-        },
-        {
-          "id": "el",
-          "value": "Mod.Greek"
+          "id": "fr",
+          "value": "French"
         },
         {
           "id": "it",
           "value": "Italian"
         },
         {
-          "id": "la",
-          "value": "Latin"
-        },
-        {
           "id": "es",
           "value": "Spanish"
-        }
-      ]
-    },
-    {
-      "id": "orthography-languages@en",
-      "entries": [
-        {
-          "id": "grc",
-          "value": "Ancient Greek"
         },
         {
-          "id": "la",
-          "value": "Latin"
-        }
-      ]
-    },
-    {
-      "id": "orthography-op-tags@en",
-      "entries": [
+          "id": "el",
+          "value": "Mod.Greek"
+        },
         {
-          "id": "grc.-",
+          "id": "grc",
           "value": "Greek"
         },
         {
-          "id": "grc.ei=i",
-          "value": "Greek: ει=ι"
-        },
-        {
-          "id": "grc.i=ei",
-          "value": "Greek: ι=ει"
-        },
-        {
-          "id": "grc.h=ei",
-          "value": "Greek: η=ει"
-        },
-        {
-          "id": "grc.ui=i",
-          "value": "Greek: υι=ι"
-        },
-        {
-          "id": "grc.e=ai",
-          "value": "Greek: ε=αι"
-        },
-        {
-          "id": "grc.ο=w",
-          "value": "Greek: ο=ω"
-        },
-        {
-          "id": "grc.oi=u",
-          "value": "Greek: οι=υ"
-        },
-        {
-          "id": "grc.e=h",
-          "value": "Greek: ε=η"
-        },
-        {
-          "id": "grc.a=e",
-          "value": "Greek: α=ε"
-        },
-        {
-          "id": "grc.ai=a",
-          "value": "Greek: αι=α"
-        },
-        {
-          "id": "grc.au=a",
-          "value": "Greek: αυ=α"
-        },
-        {
-          "id": "grc.k=ch",
-          "value": "Greek: κ=χ"
-        },
-        {
-          "id": "grc.ss=s",
-          "value": "Greek: σσ=σ"
-        },
-        {
-          "id": "grc.ll=l",
-          "value": "Greek: λλ=λ"
-        },
-        {
-          "id": "grc.nn=n",
-          "value": "Greek: νν=ν"
-        },
-        {
-          "id": "grc.ch=kch",
-          "value": "Greek: χ=κχ"
-        },
-        {
-          "id": "grc.d=t",
-          "value": "Greek: δ=τ"
-        },
-        {
-          "id": "grc.u=l",
-          "value": "Greek: υ=λ"
-        },
-        {
-          "id": "grc.e=a",
-          "value": "Greek: ε=α"
-        },
-        {
-          "id": "grc.a=h",
-          "value": "Greek: α=η"
-        },
-        {
-          "id": "grc.iuo=iou",
-          "value": "Greek: ιυο=ιου"
-        },
-        {
-          "id": "grc.ei=ie",
-          "value": "Greek: ει=ιε"
-        },
-        {
-          "id": "lat.-",
+          "id": "la",
           "value": "Latin"
         },
         {
-          "id": "lat.e=i-long",
-          "value": "Latin: e=i-long"
-        },
-        {
-          "id": "lat.ie=ei",
-          "value": "Latin: ie=ei"
-        },
-        {
-          "id": "lat.ei=ie",
-          "value": "Latin: ei=ie"
-        },
-        {
-          "id": "lat.ei=i",
-          "value": "Latin: ei=i"
-        },
-        {
-          "id": "lat.e=he",
-          "value": "Latin: e=he"
-        },
-        {
-          "id": "lat.e=i",
-          "value": "Latin: e=i"
-        },
-        {
-          "id": "lat.i=e",
-          "value": "Latin: i=e"
-        },
-        {
-          "id": "lat.b=v",
-          "value": "Latin: b=v"
-        },
-        {
-          "id": "lat.b=d",
-          "value": "Latin: b=d"
-        },
-        {
-          "id": "lat.b=p",
-          "value": "Latin: b=p"
-        },
-        {
-          "id": "lat.d=t",
-          "value": "Latin: d=t"
-        },
-        {
-          "id": "lat.xs=x",
-          "value": "Latin: xs=x"
-        },
-        {
-          "id": "lat.cs=x",
-          "value": "Latin: cs=x"
-        },
-        {
-          "id": "lat.u=o",
-          "value": "Latin: u=o"
-        },
-        {
-          "id": "lat.o=u",
-          "value": "Latin: o=u"
-        },
-        {
-          "id": "lat.rr=r",
-          "value": "Latin: rr=r"
-        },
-        {
-          "id": "lat.f=e",
-          "value": "Latin: f=e"
-        },
-        {
-          "id": "lat.is=i",
-          "value": "Latin: is=i"
-        },
-        {
-          "id": "lat.f=ph",
-          "value": "Latin: f=ph"
-        },
-        {
-          "id": "lat.ph=f",
-          "value": "Latin: ph=f"
-        },
-        {
-          "id": "lat.e=ae",
-          "value": "Latin: e=ae"
-        },
-        {
-          "id": "lat.i=ii",
-          "value": "Latin: i=ii"
-        },
-        {
-          "id": "lat.y=u",
-          "value": "Latin: y=u"
-        },
-        {
-          "id": "lat.i=y",
-          "value": "Latin: i=y"
-        },
-        {
-          "id": "lat.ll=l",
-          "value": "Latin: ll=l"
-        },
-        {
-          "id": "lat.u=y",
-          "value": "Latin: u=y"
-        },
-        {
-          "id": "lat.o=e",
-          "value": "Latin: o=e"
-        },
-        {
-          "id": "lat.n=nt",
-          "value": "Latin: n=nt"
-        },
-        {
-          "id": "lat.s=ns",
-          "value": "Latin: s=ns"
-        },
-        {
-          "id": "lat.c=g",
-          "value": "Latin: c=g"
-        },
-        {
-          "id": "lat.c=q",
-          "value": "Latin: c=q"
-        }
-      ]
-    },
-    {
-      "id": "orthography-tags@en",
-      "entries": [
-        {
-          "id": "archaic",
-          "value": "archaic"
-        },
-        {
-          "id": "vulgar",
-          "value": "vulgar"
-        },
-        {
-          "id": "epichoric",
-          "value": "epichoric"
+          "id": "osc",
+          "value": "Oscan"
         }
       ]
     },
@@ -1457,19 +1115,6 @@
       "fragmentRoles": []
     },
     "partSeeders": [
-      {
-        "id": "seed.it.vedph.bibliography",
-        "options": {
-          "authors": [
-            "Doe,Jane",
-            "Doherty,Charles",
-            "Orwell,William",
-            "Sampson,James",
-            "Voss,Francis"
-          ],
-          "journals": [ "AJPh", "CJ", "CPh", "CQ", "IF" ]
-        }
-      },
       {
         "id": "seed.it.vedph.categories",
         "options": {
