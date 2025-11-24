@@ -19,6 +19,7 @@ This is a Cadmus API layer customized for the PRJ project. Most of its code is d
 
 ## History
 
+- 2025-11-24: ⚠️ upgraded to NET 10.
 - 2025-11-14: profile:
   - changed some thesauri.
   - removed bibliography (`DocReferences` will be used instead) and orthography layer.
