@@ -19,7 +19,7 @@
 		<PackageReference Include="Cadmus.Graph" Version="10.0.1" />
 		<PackageReference Include="Cadmus.Graph.Ef.PgSql" Version="10.0.1" />
 		<PackageReference Include="Cadmus.Graph.Extras" Version="10.0.1" />
-		<PackageReference Include="Cadmus.Febo.Services" Version="3.0.0" />
+		<PackageReference Include="Cadmus.Febo.Services" Version="3.0.1" />
 		<PackageReference Include="Cadmus.Seed.Codicology.Parts" Version="9.0.1" />
 		<PackageReference Include="Cadmus.Seed.General.Parts" Version="8.0.1" />
 		<PackageReference Include="Cadmus.Seed.Philology.Parts" Version="12.0.1" />
