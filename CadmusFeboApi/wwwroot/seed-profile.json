@@ -32,21 +32,12 @@
           "sortKey": "03"
         },
         {
-          "typeId": "it.vedph.categories",
-          "roleId": "topic",
-          "name": "topics",
-          "description": "Conflict topics.",
-          "colorKey": "8080E0",
-          "groupKey": "general",
-          "sortKey": "04"
-        },
-        {
           "typeId": "it.vedph.index-keywords",
           "name": "keywords",
           "description": "Keywords.",
           "colorKey": "FFA500",
           "groupKey": "general",
-          "sortKey": "05"
+          "sortKey": "04"
         },
         {
           "typeId": "it.vedph.epigraphy.support",
@@ -54,7 +45,7 @@
           "description": "Material support.",
           "colorKey": "AAD2BA",
           "groupKey": "general",
-          "sortKey": "06"
+          "sortKey": "05"
         },
         {
           "typeId": "it.vedph.epigraphy.support-frr",
@@ -62,7 +53,7 @@
           "description": "Material support fragments.",
           "colorKey": "82AE31",
           "groupKey": "general",
-          "sortKey": "07"
+          "sortKey": "06"
         },
         {
           "typeId": "it.vedph.categories",
@@ -71,7 +62,7 @@
           "description": "Inscription language(s).",
           "colorKey": "058CA9",
           "groupKey": "general",
-          "sortKey": "08"
+          "sortKey": "07"
         },
         {
           "typeId": "it.vedph.epigraphy.scripts",
@@ -79,7 +70,7 @@
           "description": "Description of scripts.",
           "colorKey": "048BA8",
           "groupKey": "general",
-          "sortKey": "09"
+          "sortKey": "08"
         },
         {
           "typeId": "it.vedph.epigraphy.signs",
@@ -87,7 +78,7 @@
           "description": "Writing signs.",
           "colorKey": "31A8AE",
           "groupKey": "general",
-          "sortKey": "10"
+          "sortKey": "09"
         },
         {
           "typeId": "it.vedph.note",
@@ -95,7 +86,7 @@
           "description": "Free text note.",
           "colorKey": "FFB17A",
           "groupKey": "general",
-          "sortKey": "11"
+          "sortKey": "10"
         },
         {
           "typeId": "it.vedph.geo.asserted-locations",
@@ -103,7 +94,7 @@
           "description": "Locations.",
           "colorKey": "FFB17A",
           "groupKey": "localization",
-          "sortKey": "12"
+          "sortKey": "11"
         },
         {
           "typeId": "it.vedph.geo.asserted-toponyms",
@@ -111,7 +102,7 @@
           "description": "Toponyms.",
           "colorKey": "8275BD",
           "groupKey": "localization",
-          "sortKey": "13"
+          "sortKey": "12"
         },
         {
           "typeId": "it.vedph.chronotopes",
@@ -119,7 +110,7 @@
           "description": "A list of place/date indications.",
           "colorKey": "9F84BD",
           "groupKey": "localization",
-          "sortKey": "14"
+          "sortKey": "13"
         },
         {
           "typeId": "it.vedph.token-text",
@@ -128,7 +119,7 @@
           "description": "Inscription's text.",
           "colorKey": "2EBFA5",
           "groupKey": "text",
-          "sortKey": "15"
+          "sortKey": "14"
         },
         {
           "typeId": "it.vedph.note",
@@ -137,7 +128,7 @@
           "description": "Inscription's translation.",
           "colorKey": "8D93A5",
           "groupKey": "text",
-          "sortKey": "16"
+          "sortKey": "15"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -146,7 +137,7 @@
           "description": "Critical apparatus.",
           "colorKey": "D4E0A4",
           "groupKey": "text",
-          "sortKey": "17"
+          "sortKey": "16"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -155,7 +146,7 @@
           "description": "Comments to text portions.",
           "colorKey": "28666E",
           "groupKey": "text",
-          "sortKey": "18"
+          "sortKey": "17"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -164,7 +155,7 @@
           "description": "Chronological indications in text.",
           "colorKey": "7582BD",
           "groupKey": "text",
-          "sortKey": "19"
+          "sortKey": "18"
         },
         {
           "typeId": "it.vedph.comment",
@@ -172,7 +163,7 @@
           "description": "General comment.",
           "colorKey": "28666E",
           "groupKey": "comment",
-          "sortKey": "20"
+          "sortKey": "19"
         },
         {
           "typeId": "it.vedph.doc-references",
@@ -180,7 +171,7 @@
           "description": "Short documental references.",
           "colorKey": "AAAA9D",
           "groupKey": "references",
-          "sortKey": "21"
+          "sortKey": "20"
         }
       ]
     },
@@ -207,21 +198,12 @@
           "sortKey": "02"
         },
         {
-          "typeId": "it.vedph.categories",
-          "roleId": "topic",
-          "name": "topics",
-          "description": "Conflict topics.",
-          "colorKey": "8080E0",
-          "groupKey": "general",
-          "sortKey": "03"
-        },
-        {
           "typeId": "it.vedph.index-keywords",
           "name": "keywords",
           "description": "Keywords.",
           "colorKey": "FFA500",
           "groupKey": "general",
-          "sortKey": "04"
+          "sortKey": "03"
         },
         {
           "typeId": "it.vedph.note",
@@ -229,7 +211,7 @@
           "description": "Free text note.",
           "colorKey": "FFB17A",
           "groupKey": "general",
-          "sortKey": "05"
+          "sortKey": "04"
         },
         {
           "typeId": "it.vedph.token-text",
@@ -238,7 +220,7 @@
           "description": "Passage's text.",
           "colorKey": "2EBFA5",
           "groupKey": "text",
-          "sortKey": "06"
+          "sortKey": "05"
         },
         {
           "typeId": "it.vedph.note",
@@ -247,7 +229,7 @@
           "description": "Passage's translation.",
           "colorKey": "8D93A5",
           "groupKey": "text",
-          "sortKey": "07"
+          "sortKey": "06"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -256,7 +238,7 @@
           "description": "Critical apparatus.",
           "colorKey": "D4E0A4",
           "groupKey": "text",
-          "sortKey": "08"
+          "sortKey": "07"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -265,7 +247,7 @@
           "description": "Comments to text portions.",
           "colorKey": "28666E",
           "groupKey": "text",
-          "sortKey": "09"
+          "sortKey": "08"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -274,7 +256,7 @@
           "description": "Chronological indications in text.",
           "colorKey": "7582BD",
           "groupKey": "text",
-          "sortKey": "10"
+          "sortKey": "09"
         },
         {
           "typeId": "it.vedph.comment",
@@ -282,7 +264,7 @@
           "description": "General comment.",
           "colorKey": "28666E",
           "groupKey": "comment",
-          "sortKey": "11"
+          "sortKey": "10"
         },
         {
           "typeId": "it.vedph.chronotopes",
@@ -290,7 +272,7 @@
           "description": "A list of cited places.",
           "colorKey": "9F84BD",
           "groupKey": "comment",
-          "sortKey": "12"
+          "sortKey": "11"
         },
         {
           "typeId": "it.vedph.doc-references",
@@ -298,7 +280,7 @@
           "description": "Short documental references.",
           "colorKey": "AAAA9D",
           "groupKey": "references",
-          "sortKey": "13"
+          "sortKey": "12"
         }
       ]
     },
@@ -775,12 +757,44 @@
       "id": "categories_topic@en",
       "entries": [
         {
-          "id": "war",
-          "value": "war"
+          "id": "federal",
+          "value": "federal"
         },
         {
-          "id": "peace",
-          "value": "peace"
+          "id": "alliance",
+          "value": "alliance"
+        },
+        {
+          "id": "arbitration",
+          "value": "arbitration"
+        },
+        {
+          "id": "treaty",
+          "value": "treaty"
+        },
+        {
+          "id": "border-external",
+          "value": "external borders"
+        },
+        {
+          "id": "border-internal",
+          "value": "internal borders"
+        },
+        {
+          "id": "border-demarcation",
+          "value": "border demarcation"
+        },
+        {
+          "id": "intervention-federal",
+          "value": "federal intervention"
+        },
+        {
+          "id": "intervention-royal",
+          "value": "royal intervention"
+        },
+        {
+          "id": "intervention-roman",
+          "value": "Roman intervention"
         }
       ]
     },
