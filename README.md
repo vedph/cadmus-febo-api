@@ -19,6 +19,7 @@ This is a Cadmus API layer customized for the PRJ project. Most of its code is d
 
 ## History
 
+- 2026-02-17: updated packages.
 - 2026-01-25:
   - profile: removed categories:topic from `inscription` and `passage` facet.
   - profile: updated `categories_topic` thesaurus.
