@@ -19,6 +19,10 @@ This is a Cadmus API layer customized for the PRJ project. Most of its code is d
 
 ## History
 
+- 2026-03-22:
+  - updated packages.
+  - added profile settings for facet editor.
+
 ### 3.0.0
 
 - 2026-02-20: updated packages.
