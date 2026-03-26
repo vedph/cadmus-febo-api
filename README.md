@@ -17,6 +17,31 @@ docker buildx build . --platform linux/amd64,linux/arm64,windows/amd64,windows/a
 
 This is a Cadmus API layer customized for the PRJ project. Most of its code is derived from shared Cadmus libraries.
 
+## Parts Matrix
+
+|                 | inscription | passage | conflict | actor |
+| --------------- | ----------- | ------- | -------- | ----- |
+| categories      | fn epilng   |         | topic    | actor |
+| chronotopes     | X           | X       |          | X     |
+| comment         | X           | X       | X        | X     |
+| events          |             |         | X        | X     |
+| fragments (EPI) | X           |         |          |       |
+| keywords        | X           | X       | X        | X     |
+| links           | X           | X       | X        | X     |
+| locations (GEO) | X           |         |          | X     |
+| metadata        | X           | X       | X        |       |
+| names           |             |         |          | X     |
+| note            | X trans     | X trans | X        | X     |
+| references      | X           | X       | X        | X     |
+| scripts (EPI)   | X           |         |          |       |
+| signs (EPI)     |             |         |          |       |
+| support (EPI)   | X           |         |          |       |
+| text            | X           | X       |          |       |
+| toponyms (GEO)  | X           |         |          |       |
+| apparatus=      | X           | X       |          |       |
+| chronology=     | X           | X       |          |       |
+| comment=        | X           | X       |          |       |
+
 ## History
 
 - 2026-03-22:
