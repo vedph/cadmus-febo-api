@@ -426,6 +426,18 @@
           "value": "scripts"
         },
         {
+          "id": "it.vedph.historical-date",
+          "value": "date"
+        },
+        {
+          "id": "it.vedph.historical-date:document",
+          "value": "document date"
+        },
+        {
+          "id": "it.vedph.historical-date:episode",
+          "value": "episode date"
+        },
+        {
           "id": "it.vedph.index-keywords",
           "value": "keywords"
         },
@@ -1052,23 +1064,43 @@
     },
     "partSeeders": [
       {
-        "id": "seed.it.vedph.categories",
+        "id": "seed.it.vedph.categories:actor",
         "options": {
-          "maxCategoriesPerItem": 3,
-          "categories": ["war", "peace"]
+          "maxCategoriesPerItem": 1,
+          "categories": ["polis", "koinon", "ethnos", "amphictyony", "kome"]
+        }
+      },
+      {
+        "id": "seed.it.vedph.categories:ins-fn",
+        "options": {
+          "maxCategoriesPerItem": 1,
+          "categories": [
+            "decree-384",
+            "doc-357",
+            "honorific-69",
+            "funerary-92",
+            "votive-83"
+          ]
+        }
+      },
+      {
+        "id": "seed.it.vedph.categories:topic",
+        "options": {
+          "maxCategoriesPerItem": 1,
+          "categories": [
+            "federal",
+            "alliance",
+            "arbitration",
+            "treaty",
+            "border-demarcation"
+          ]
         }
       },
       {
         "id": "seed.it.vedph.doc-references"
       },
       {
-        "id": "seed.it.vedph.epigraphy.signs"
-      },
-      {
         "id": "seed.it.vedph.epigraphy.support"
-      },
-      {
-        "id": "seed.it.vedph.epigraphy.support-frr"
       },
       {
         "id": "seed.it.vedph.epigraphy.scripts"
