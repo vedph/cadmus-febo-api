@@ -277,12 +277,20 @@
           "sortKey": "05"
         },
         {
+          "typeId": "it.vedph.comment",
+          "name": "comment",
+          "description": "Comment.",
+          "colorKey": "B2E0AA",
+          "groupKey": "general",
+          "sortKey": "06"
+        },
+        {
           "typeId": "it.vedph.note",
           "name": "note",
-          "description": "Comment text.",
+          "description": "Generic note.",
           "colorKey": "FFB17A",
-          "groupKey": "comment",
-          "sortKey": "06"
+          "groupKey": "references",
+          "sortKey": "07"
         },
         {
           "typeId": "it.vedph.doc-references",
@@ -290,7 +298,7 @@
           "description": "Short documental references.",
           "colorKey": "AAAA9D",
           "groupKey": "references",
-          "sortKey": "07"
+          "sortKey": "08"
         }
       ]
     },
@@ -412,6 +420,10 @@
         {
           "id": "it.vedph.categories:topic",
           "value": "topics"
+        },
+        {
+          "id": "it.vedph.comment",
+          "value": "comment"
         },
         {
           "id": "it.vedph.doc-references",
@@ -717,6 +729,10 @@
           "value": "internal borders"
         }
       ]
+    },
+    {
+      "id": "comment-keyword-languages@en",
+      "targetId": "languages"
     },
     {
       "id": "doc-reference-types@en",
@@ -1367,6 +1383,9 @@
           "thesauriIds": [ "epi-ligature-types" ]
         }
       }
+    },
+    "it.vedph.index-keywords": {
+      "noIndexId": true
     },
     "it.vedph.metadata": {
       "noType": true

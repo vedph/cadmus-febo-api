@@ -22,7 +22,7 @@ This is a Cadmus API layer customized for the PRJ project. Most of its code is d
 |               | inscription      | passage          | conflict | actor |
 | ------------- | ---------------- | ---------------- | -------- | ----- |
 | categories    | ins-fn topic     | topic            | topic    | actor |
-| comment       | X                | X                | X        | X     |
+| comment       |                  |                  | X        |       |
 | date          | document episode | document episode | X        |       |
 | keywords      | X                | X                | X        | X     |
 | links         | X                | X                | X        | X     |
@@ -36,6 +36,8 @@ This is a Cadmus API layer customized for the PRJ project. Most of its code is d
 | apparatus=    | X                | X                |          |       |
 
 ## History
+
+- 2026-03-27: added comment to conflict facet.
 
 ### 4.0.0
 
