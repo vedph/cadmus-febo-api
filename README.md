@@ -19,31 +19,25 @@ This is a Cadmus API layer customized for the PRJ project. Most of its code is d
 
 ## Parts Matrix
 
-|                 | inscription | passage | conflict | actor |
-| --------------- | ----------- | ------- | -------- | ----- |
-| categories      | fn epilng   |         | topic    | actor |
-| chronotopes     | X           | X       |          | X     |
-| comment         | X           | X       | X        | X     |
-| events          |             |         | X        | X     |
-| fragments (EPI) | X           |         |          |       |
-| keywords        | X           | X       | X        | X     |
-| links           | X           | X       | X        | X     |
-| locations (GEO) | X           |         |          | X     |
-| metadata        | X           | X       | X        |       |
-| names           |             |         |          | X     |
-| note            | X trans     | X trans | X        | X     |
-| references      | X           | X       | X        | X     |
-| scripts (EPI)   | X           |         |          |       |
-| signs (EPI)     |             |         |          |       |
-| support (EPI)   | X           |         |          |       |
-| text            | X           | X       |          |       |
-| toponyms (GEO)  | X           |         |          |       |
-| apparatus=      | X           | X       |          |       |
-| chronology=     | X           | X       |          |       |
-| comment=        | X           | X       |          |       |
+|               | inscription      | passage          | conflict | actor |
+| ------------- | ---------------- | ---------------- | -------- | ----- |
+| categories    | ins-fn topic     | topic            | topic    | actor |
+| comment       | X                | X                | X        | X     |
+| date          | document episode | document episode | X        |       |
+| keywords      | X                | X                | X        | X     |
+| links         | X                | X                | X        | X     |
+| metadata      | X                | X                | X        | X     |
+| names         |                  |                  |          | X     |
+| note          | X trans          | X trans          | X        | X     |
+| references    | X                | X                | X        | X     |
+| scripts (EPI) | X                |                  |          |       |
+| support (EPI) | X                |                  |          |       |
+| text          | X                | X                |          |       |
+| apparatus=    | X                | X                |          |       |
 
 ## History
 
+- 2026-03-27: ⚠️ refactored profiles.
 - 2026-03-22:
   - updated packages.
   - added profile settings for facet editor.
