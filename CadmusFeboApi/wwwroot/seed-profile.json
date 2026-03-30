@@ -325,21 +325,13 @@
           "sortKey": "02"
         },
         {
-          "typeId": "it.vedph.names",
-          "name": "names",
-          "description": "Proper name(s).",
-          "colorKey": "C0F0F8",
-          "groupKey": "general",
-          "sortKey": "03"
-        },
-        {
           "typeId": "it.vedph.categories",
           "roleId": "actor",
           "name": "roles",
           "description": "Actor's roles.",
           "colorKey": "8080E0",
           "groupKey": "general",
-          "sortKey": "04"
+          "sortKey": "03"
         },
         {
           "typeId": "it.vedph.index-keywords",
@@ -347,7 +339,7 @@
           "description": "Keywords.",
           "colorKey": "FFA500",
           "groupKey": "general",
-          "sortKey": "05"
+          "sortKey": "04"
         },
         {
           "typeId": "it.vedph.note",
@@ -355,7 +347,7 @@
           "description": "Comment text.",
           "colorKey": "FFB17A",
           "groupKey": "comment",
-          "sortKey": "06"
+          "sortKey": "05"
         },
         {
           "typeId": "it.vedph.doc-references",
@@ -363,7 +355,7 @@
           "description": "Short documental references.",
           "colorKey": "AAAA9D",
           "groupKey": "references",
-          "sortKey": "07"
+          "sortKey": "06"
         }
       ]
     }
@@ -456,10 +448,6 @@
         {
           "id": "it.vedph.metadata",
           "value": "metadata"
-        },
-        {
-          "id": "it.vedph.names",
-          "value": "names"
         },
         {
           "id": "it.vedph.note",

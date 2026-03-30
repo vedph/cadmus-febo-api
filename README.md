@@ -37,6 +37,7 @@ This is a Cadmus API layer customized for the PRJ project. Most of its code is d
 
 ## History
 
+- 2026-03-30: removed names from actor facet.
 - 2026-03-27: added comment to conflict facet.
 
 ### 4.0.0
