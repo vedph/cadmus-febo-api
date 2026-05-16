@@ -98,9 +98,6 @@ public static class Program
         // messaging
         ServiceConfigurator.ConfigureMessagingServices(services);
 
-        // logging
-        ServiceConfigurator.ConfigureLogging(services);
-
         // app services
         ConfigureAppServices(services, config);
     }
