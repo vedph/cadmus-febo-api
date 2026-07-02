@@ -231,8 +231,8 @@
     },
     {
       "id": "conflict",
-      "label": "conflict",
-      "description": "Conflict.",
+      "label": "dispute",
+      "description": "Dispute.",
       "colorKey": "D8314A",
       "partDefinitions": [
         {
@@ -255,7 +255,7 @@
           "typeId": "it.vedph.categories",
           "roleId": "topic",
           "name": "topics",
-          "description": "Conflict topics.",
+          "description": "Dispute topics.",
           "colorKey": "8080E0",
           "groupKey": "general",
           "sortKey": "03"
