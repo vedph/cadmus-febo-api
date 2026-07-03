@@ -7,10 +7,17 @@ API service for Cadmus [FeBo](https://erc-febo.unitn.it) (_Federalism and Border
 
 🐋 Quick Docker image build (you need to have a `buildx` container):
 
-```bash
-docker buildx create --use
+Before creating Docker images, ensure you have a buildx builder instance running that supports multi-arch:
 
-docker buildx build . --platform linux/amd64,linux/arm64,windows/amd64,windows/arm64 -t vedph2020/cadmus-febo-api:4.0.2 -t vedph2020/cadmus-febo-api:latest --push
+```sh
+docker buildx create --use --name multi-arch-builder || docker buildx use multi-arch-builder
+docker buildx inspect --bootstrap
+```
+
+Build:
+
+```bash
+docker buildx build --platform linux/amd64,linux/arm64 -t vedph2020/cadmus-febo-api:4.0.3 -t vedph2020/cadmus-febo-api:latest --push .
 ```
 
 (replace with the current version).
@@ -36,6 +43,10 @@ This is a Cadmus API layer customized for the PRJ project. Most of its code is d
 | apparatus=    | X                | X                |          |       |
 
 ## History
+
+### 4.0.3
+
+- 2026-07-03: updated packages.
 
 ### 4.0.2
 
