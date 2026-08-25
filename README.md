@@ -17,7 +17,7 @@ docker buildx inspect --bootstrap
 Build:
 
 ```bash
-docker buildx build --platform linux/amd64,linux/arm64 -t vedph2020/cadmus-febo-api:4.0.3 -t vedph2020/cadmus-febo-api:latest --push .
+docker buildx build --platform linux/amd64,linux/arm64 -t vedph2020/cadmus-febo-api:4.0.4 -t vedph2020/cadmus-febo-api:latest --push .
 ```
 
 (replace with the current version).
@@ -43,6 +43,10 @@ This is a Cadmus API layer customized for the PRJ project. Most of its code is d
 | apparatus=    | X                | X                |          |       |
 
 ## History
+
+### 4.0.4
+
+- 2026-08-25: updated packages.
 
 ### 4.0.3
 
