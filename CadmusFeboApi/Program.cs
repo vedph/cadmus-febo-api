@@ -17,7 +17,7 @@ using Cadmus.Api.Controllers;
 using Cadmus.Api.Config.Services;
 using Cadmus.Api.Config;
 using Cadmus.Api.Controllers.Import;
-using CadmusFeboApi.Services;
+using Cadmus.Febo.Services;
 
 namespace CadmusFeboApi;
 

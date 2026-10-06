@@ -8,7 +8,7 @@ using Microsoft.Extensions.Hosting;
 using System;
 using System.Reflection;
 
-namespace CadmusFeboApi.Services;
+namespace Cadmus.Febo.Services;
 
 /// <summary>
 /// Febo part seeders provider.

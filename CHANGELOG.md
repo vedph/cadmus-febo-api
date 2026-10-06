@@ -1,5 +1,9 @@
 # History
 
+- 2026-10-06:
+  - encapsulated `Cadmus.Febo.Services` into its own project.
+  - updated packages.
+  - refactored Dockerfile for multi-arch build.
 - 2026-09-23:
   - updated packages.
   - moved `Cadmus.Febo.Services` services into this project.

@@ -17,7 +17,7 @@ docker buildx inspect --bootstrap
 Build:
 
 ```bash
-docker buildx build --platform linux/amd64,linux/arm64 -t vedph2020/cadmus-febo-api:4.0.4 -t vedph2020/cadmus-febo-api:latest --push .
+docker buildx build --platform linux/amd64,linux/arm64 -t vedph2020/cadmus-febo-api:4.0.5 -t vedph2020/cadmus-febo-api:latest --push .
 ```
 
 (replace with the current version).

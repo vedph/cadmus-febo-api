@@ -5,9 +5,10 @@ using Cadmus.Core.Storage;
 using Cadmus.Mongo;
 using Cadmus.General.Parts;
 using Cadmus.Philology.Parts;
+using System;
 using Cadmus.Epigraphy.Parts;
 
-namespace CadmusFeboApi.Services;
+namespace Cadmus.Febo.Services;
 
 /// <summary>
 /// Cadmus Febo repository provider.
