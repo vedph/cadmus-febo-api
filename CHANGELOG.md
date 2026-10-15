@@ -1,5 +1,6 @@
 # History
 
+- 2026-10-15: updated packages.
 - 2026-10-06:
   - encapsulated `Cadmus.Febo.Services` into its own project.
   - updated packages.
