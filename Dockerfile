@@ -1,5 +1,5 @@
 # Stage 1: base (uses target platform architecture for ASP.NET runtime)
-FROM mcr.microsoft.com/dotnet/aspnet:10.0 AS base
+FROM mcr.microsoft.com/dotnet/aspnet:11.0 AS base
 WORKDIR /app
 EXPOSE 8080
 EXPOSE 443

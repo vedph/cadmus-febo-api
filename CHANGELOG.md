@@ -1,5 +1,8 @@
 # History
 
+## 5.0.0
+
+- 2026-11-14: ⚠️ upgraded to .NET 11.
 - 2026-10-25: updated packages.
 - 2026-10-15: updated packages.
 - 2026-10-06:
