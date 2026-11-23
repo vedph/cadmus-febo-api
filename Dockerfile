@@ -5,7 +5,7 @@ EXPOSE 8080
 EXPOSE 443
 
 # Stage 2: build/publish (SDK runs natively on host platform for speed)
-FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:10.0 AS build
+FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:11.0 AS build
 ARG TARGETARCH
 ARG TARGETOS
 
