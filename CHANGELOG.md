@@ -1,5 +1,7 @@
 # History
 
+- 2026-11-24: updated packages.
+
 ## 5.0.1
 
 - 2026-11-23: updated packages (enabled history in editor).
